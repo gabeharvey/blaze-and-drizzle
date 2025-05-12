@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Link as ChakraLink } from '@chakra-ui/react';
+import { Flex, Box, Text } from '@chakra-ui/react';
 
 function Footer() {
   return (
@@ -21,9 +21,10 @@ function Footer() {
         gap="1rem"
       >
         <Text
-          fontSize="md"
+          fontSize="lg"
           fontWeight="bold"
           letterSpacing="wider"
+          textAlign='center'
           sx={{
             textShadow: '1px 1px 2px #EA2127',
             WebkitTextStroke: '0.3px #EA2127',
@@ -31,23 +32,6 @@ function Footer() {
         >
           ©2025 Blaze and Drizzle LLC
         </Text>
-
-        <ChakraLink
-          href="https://athletexelite.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          fontSize="md"
-          fontWeight="extrabold"
-          fontFamily="'Arvo', system-ui"
-          color="#FAF3E0"
-          _hover={{
-            textDecoration: 'none',
-            transform: 'scale(1.05)',
-            color: '#FAF3E0',
-          }}
-        >
-          All Rights Reserved
-        </ChakraLink>
       </Flex>
     </Box>
   );

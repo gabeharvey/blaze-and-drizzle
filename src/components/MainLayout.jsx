@@ -4,8 +4,12 @@ import Menu from './Menu';
 const MainLayout = () => {
   return (
     <>
-      <About />
-      <Menu />
+        <div id="about">
+            <About />
+        </div>
+        <div id="menu">
+            <Menu />
+        </div>
     </>
   );
 };

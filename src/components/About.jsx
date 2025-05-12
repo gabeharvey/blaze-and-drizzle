@@ -28,7 +28,7 @@ const About = () => {
           ❤️
         </Text>
         <Text as="span" mx={2}>
-          Boerne, TX
+          Boerne
         </Text>
         <Image
           src={TexasFlagGIF}
@@ -38,13 +38,33 @@ const About = () => {
         />
       </Flex>
       <VStack spacing={6}>
+        <Box
+        w="100%"
+        maxW="600px"
+        mx="auto"
+        my="2rem"
+        px={{ base: "1rem", md: "2rem" }}
+        overflow="hidden"
+        aspectRatio={1}
+        sx={{
+            maskImage: `url('/texas-outline.svg')`,
+            maskSize: 'contain',
+            maskRepeat: 'no-repeat',
+            maskPosition: 'center',
+            WebkitMaskImage: `url('/texas-outline.svg')`,
+            WebkitMaskSize: 'contain',
+            WebkitMaskRepeat: 'no-repeat',
+            WebkitMaskPosition: 'center',
+        }}
+        >
         <Image
-          src={BBQImage}
-          alt="Blaze and Drizzle Logo"
-          borderRadius="lg"
-          maxW="600px"
-          boxShadow="2xl"
+            src={BBQImage}
+            alt="Blaze and Drizzle Logo"
+            w="100%"
+            h="100%"
+            objectFit="cover"
         />
+        </Box>
         <Heading as="h2" size="xl" color="#FAF3E0" fontFamily="'Arvo', serif">
           About Us
         </Heading>

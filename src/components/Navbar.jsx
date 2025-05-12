@@ -191,7 +191,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#2E2E2E"
+                            bgGradient="linear(to-b, #2E2E2E, #8B0000, #5C2E00)"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
