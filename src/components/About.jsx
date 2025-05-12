@@ -73,7 +73,7 @@ const About = () => {
           Welcome to <strong>Blaze and Drizzle</strong>, proudly founded in Boerne, Texas in 2025. We are your go-to destination for slow-cooked, smoky perfection with a bold Texas twist and unforgettable hospitality.
         </Text>
 
-        <Text fontSize="md" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
+        <Text fontSize="lg" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
           From our legendary brisket and fall-off-the-bone ribs to our signature sauces and big Texas sides, everything we serve is crafted with passion, fire, and flavor. Blaze and Drizzle is here to serve up serious smoke.
         </Text>
       </VStack>
