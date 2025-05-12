@@ -90,7 +90,7 @@ const Navbar = () => {
                         transition={{ duration: 1, ease: 'easeOut' }}  
                     >
                 <Heading
-                    fontSize={{ base: '3xl', md: '4xl' }}
+                    fontSize={{ base: '2xl', md: '3xl' }}
                     fontFamily="'Black Ops One', system-ui"
                     fontWeight="extra bold"
                     letterSpacing="wider"
