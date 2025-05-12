@@ -70,7 +70,7 @@ const About = () => {
         </Heading>
 
         <Text fontSize="lg" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
-          Welcome to <strong>Blaze and Drizzle BBQ</strong>, proudly founded in Boerne, Texas in 2025. We are your go-to destination for slow-cooked, smoky perfection with a bold Texas twist and unforgettable hospitality.
+          Welcome to <strong>Blaze and Drizzle</strong>, proudly founded in Boerne, Texas in 2025. We are your go-to destination for slow-cooked, smoky perfection with a bold Texas twist and unforgettable hospitality.
         </Text>
 
         <Text fontSize="md" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
