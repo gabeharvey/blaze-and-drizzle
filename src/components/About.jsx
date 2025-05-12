@@ -12,7 +12,7 @@ const About = () => {
       textAlign="center"
     >
       {/* Banner */}
-      <Flex
+        <Flex
         align="center"
         justify="center"
         mb={8}
@@ -20,23 +20,37 @@ const About = () => {
         fontSize={{ base: "3xl", md: "4xl" }}
         fontWeight="bold"
         color="#FAF3E0"
-      >
-        <Text as="span" mr={2}>
-          We
+        flexWrap="wrap"
+        >
+        <Text as="span" mr={2} textShadow="0px 4px #EA2127">
+            We
         </Text>
-        <Text as="span" color="#EA2127" fontSize="5xl" mx={1}>
-          ❤️
+        <Text
+            as="span"
+            color="#EA2127"
+            fontSize={{ base: "4xl", md: "5xl" }}
+            mx={1}
+            animation="heartbeat 1.5s infinite"
+            textShadow="0px 0px #EA2127"
+        >
+            ❤️
         </Text>
-        <Text as="span" mx={2}>
-          Boerne
+        <Text
+            as="span"
+            mx={2}
+            _hover={{ transform: "scale(1.05)", transition: "transform 0.3s" }}
+            textShadow="0px 4px #EA2127"
+        >
+            Boerne
         </Text>
         <Image
-          src={TexasFlagGIF}
-          alt="Waving Texas Flag"
-          boxSize="50px" 
-          ml={2}
+            src={TexasFlagGIF}
+            alt="Waving Texas Flag"
+            boxSize="50px"
+            ml={2}
+            animation="floatFlag 3s ease-in-out infinite"
         />
-      </Flex>
+        </Flex>
       <VStack spacing={6}>
         <Box
         w="100%"
