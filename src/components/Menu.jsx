@@ -30,7 +30,7 @@ const Menu = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            border="1px solid #444"
+            border="1px solid #708090"
             borderRadius="lg"
             p={4}
             minH="100%"
@@ -59,7 +59,7 @@ const Menu = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            border="1px solid #444"
+            border="1px solid #708090"
             borderRadius="lg"
             p={4}
             minH="100%"
