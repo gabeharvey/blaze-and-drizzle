@@ -22,16 +22,16 @@ const About = () => {
         color="#FAF3E0"
         flexWrap="wrap"
         >
-        <Text as="span" mr={2} textShadow="0px 4px #EA2127">
+        <Text as="span" mr={2} textShadow="0px 4px #708090">
             We
         </Text>
         <Text
             as="span"
-            color="#EA2127"
+            color="#708090"
             fontSize={{ base: "4xl", md: "5xl" }}
             mx={1}
             animation="heartbeat 1.5s infinite"
-            textShadow="0px 0px #EA2127"
+            textShadow="0px 0px #708090"
         >
             ❤️
         </Text>
@@ -39,7 +39,7 @@ const About = () => {
             as="span"
             mx={2}
             _hover={{ transform: "scale(1.05)", transition: "transform 0.3s" }}
-            textShadow="0px 4px #EA2127"
+            textShadow="0px 4px #708090"
         >
             Boerne
         </Text>
