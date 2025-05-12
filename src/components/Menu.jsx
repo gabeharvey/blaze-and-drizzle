@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import {
   Box,
   Heading,
@@ -92,35 +91,35 @@ const Menu = () => {
 
           {/* Beef Ribs */}
           <Box
-  display="flex"
-  flexDirection="column"
-  justifyContent="space-between"
-  border="1px solid #708090"
-  borderRadius="lg"
-  p={4}
-  minH="100%"
->
-  <Box>
-    <Image
-      src="/beef-ribs.jpg"
-      alt="Beef Ribs"
-      borderRadius="lg"
-      mb={4}
-      h="250px"
-      w="100%"
-      objectFit="cover"
-    />
-    <Heading size="lg" mb={2}>
-      Hill Country Blaze-Drizzled Beef Ribs
-    </Heading>
-    <Text fontSize="md" mb={2}>
-      Meaty, slow-cooked beef ribs kissed by smoke and fire, then drizzled in our signature spicy-sweet blaze sauce.
-    </Text>
-  </Box>
-  <Text fontWeight="bold" fontSize="xl" color="orange.300">
-    $29
-  </Text>
-</Box>
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            border="1px solid #708090"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            >
+            <Box>
+                <Image
+                src="/beef-ribs.jpg"
+                alt="Beef Ribs"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+                />
+                <Heading size="lg" mb={2}>
+                Hill Country Blaze-Drizzled Beef Ribs
+                </Heading>
+                <Text fontSize="md" mb={2}>
+                Meaty, slow-cooked beef ribs kissed by smoke and fire, then drizzled in our signature spicy-sweet blaze sauce.
+                </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+                $29
+            </Text>
+            </Box>
         </SimpleGrid>
       </Box>
     </Box>
