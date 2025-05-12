@@ -51,7 +51,7 @@ const Social = () => {
             _hover={{ transform: "scale(1.1)" }}
           />
         </Link>
-        <Link href="https://www.tiktok.com" isExternal aria-label="TikTok">
+        <Link href="https://www.tiktok.com/@blaze_and_drizzle?lang=en" isExternal aria-label="TikTok">
           <Icon
             as={FaTiktok}
             boxSize={10}
