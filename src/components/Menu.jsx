@@ -26,7 +26,7 @@ const Menu = () => {
         maxW="3xl"
         mx="auto"
       >
-        <Heading as="h2" size="2xl" textAlign="center" mb={10}>
+        <Heading as="h2" size="xl" textAlign="center" mb={10}>
           Menu
         </Heading>
 
