@@ -11,7 +11,7 @@ import {
 import { CloseIcon } from '@chakra-ui/icons';
 import { Link as ScrollLink } from 'react-scroll';
 import { motion } from 'framer-motion';
-import { CgMenuGridO } from 'react-icons/cg';
+import { FaFire } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 import '../App.css';
 
@@ -113,8 +113,13 @@ const Navbar = () => {
                         showCloseIcon ? (
                             <motion.div
                                 whileHover={{ scale: 1.2, color: '#FAF3E0' }}
-                                animate={{ y: [0, -5, 0] }}
-                                transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }} 
+                                transition={{
+                                    duration: 1.5,
+                                    repeat: Infinity,
+                                    repeatType: 'loop',
+                                    ease: 'easeInOut',
+                                }}
                                 style={{ color: '#FAF3E0' }}
                             >
                                 <CloseIcon />
@@ -122,11 +127,16 @@ const Navbar = () => {
                         ) : (
                             <motion.div
                                 whileHover={{ scale: 1.2, color: '#FAF3E0' }}
-                                animate={{ y: [0, -5, 0] }}
-                                transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
+                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }} 
+                                transition={{
+                                    duration: 1.5,
+                                    repeat: Infinity,
+                                    repeatType: 'loop',
+                                    ease: 'easeInOut',
+                                }}
                                 style={{ color: '#FAF3E0' }}
                             >
-                                <CgMenuGridO />
+                                <FaFire />
                             </motion.div>
                         )
                     }
