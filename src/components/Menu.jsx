@@ -110,7 +110,7 @@ const Menu = () => {
                 objectFit="cover"
                 />
                 <Heading size="lg" mb={2}>
-                Hill Country Blaze-Drizzled Beef Ribs
+                Hill Country Blaze-Drizzled Beef Ribz
                 </Heading>
                 <Text fontSize="md" mb={2}>
                 Meaty, slow-cooked beef ribs kissed by smoke and fire, then drizzled in our signature spicy-sweet blaze sauce.
