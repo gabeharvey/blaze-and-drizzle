@@ -81,7 +81,7 @@ const Menu = () => {
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
-                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and served with a bold chipotle glaze.
+                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and served with signature spicy-sweet blaze sauce.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
