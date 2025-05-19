@@ -70,7 +70,7 @@ const Social = () => {
         bg="#000000"
         borderRadius="md"
         display="inline-block"
-        boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
+        boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
       >
         <Text
           fontFamily="'Nosifer', cursive"
