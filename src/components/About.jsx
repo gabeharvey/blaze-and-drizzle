@@ -79,7 +79,7 @@ const About = () => {
             objectFit="cover"
         />
         </Box>
-        <Heading as="h2" size="xl" color="#000000" fontFamily="'Nosifer', cursive">
+        <Heading as="h2" size="lg" color="#000000" fontFamily="'Nosifer', cursive">
           About Us
         </Heading>
         <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">

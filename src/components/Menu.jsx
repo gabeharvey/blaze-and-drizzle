@@ -22,7 +22,7 @@ const Menu = () => {
       <Box bg={bgColor} borderRadius="xl" p={8} maxW="6xl" mx="auto">
         <Heading
           as="h2"
-          size="xl"
+          size="lg"
           textAlign="center"
           mb={10}
           fontFamily="'Nosifer', cursive"
