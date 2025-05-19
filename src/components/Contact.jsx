@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Box,
   Heading,
@@ -31,23 +32,47 @@ const Contact = () => {
       )
       .then(
         () => {
-          toast({
-            title: "Message sent!",
-            description: "We'll get back to you soon.",
-            status: "success",
-            duration: 4000,
-            isClosable: true,
-          });
+        toast({
+        duration: 4000,
+        isClosable: true,
+        status: "success",
+        position: "bottom",
+        render: () => (
+            <Box
+            padding="12px 16px"
+            bg="green.500"
+            color="white"
+            borderRadius="md"
+            fontFamily="'Nosifer', cursive"
+            boxShadow="lg"
+            >
+            <Text fontWeight="bold">Message sent!</Text>
+            <Text>We'll get back to you soon.</Text>
+            </Box>
+        ),
+        });
           form.current.reset();
         },
         (error) => {
-          toast({
-            title: "Failed to send",
-            description: "Please try again later.",
-            status: "error",
-            duration: 4000,
-            isClosable: true,
-          });
+        toast({
+        duration: 4000,
+        isClosable: true,
+        status: "error",
+        position: "bottom",
+        render: () => (
+            <Box
+            padding="12px 16px"
+            bg="red.500"
+            color="white"
+            borderRadius="md"
+            fontFamily="'Nosifer', cursive"
+            boxShadow="lg"
+            >
+            <Text fontWeight="bold">Failed to send</Text>
+            <Text>Please try again later.</Text>
+            </Box>
+        ),
+        });
           console.error("EmailJS Error:", error);
         }
       );
