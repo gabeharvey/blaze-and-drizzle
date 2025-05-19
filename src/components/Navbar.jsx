@@ -116,17 +116,29 @@ const Navbar = () => {
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#F6E0B3' }}
-                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }}
-                                transition={{
-                                    duration: 1.5,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                    ease: 'easeInOut',
-                                }}
-                                style={{ color: '#F6E0B3' }}
+                            whileHover={{ scale: 1.3 }}
+                            animate={{
+                                scale: [1, 1.1, 1],
+                                color: ["#FF4500", "#FFD700", "#FF2400", "#FF6B00", "#FF4500"], 
+                                textShadow: [
+                                "0 0 5px #FF4500",
+                                "0 0 10px #FFD700",
+                                "0 0 15px #FF2400",
+                                "0 0 20px #FF6B00",
+                                "0 0 25px #FF4500",
+                                ],
+                            }}
+                            transition={{
+                                duration: 2,
+                                repeat: Infinity,
+                                repeatType: "loop",
+                                ease: "easeInOut",
+                            }}
+                            style={{
+                                fontSize: "2.2rem", 
+                            }}
                             >
-                                <FaFire />
+                            <FaFire />
                             </motion.div>
                         )
                     }
