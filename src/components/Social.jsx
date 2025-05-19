@@ -1,4 +1,5 @@
-import { Box, Heading, HStack, Link, Icon } from "@chakra-ui/react";
+/* eslint-disable react/no-unescaped-entities */
+import { Box, Heading, HStack, Link, Icon, Text } from "@chakra-ui/react";
 import {
   FaFacebook,
   FaInstagram,
@@ -61,6 +62,24 @@ const Social = () => {
           />
         </Link>
       </HStack>
+      
+      <Box
+        mt={10}
+        py={4}
+        px={6}
+        bg="#000000"
+        borderRadius="md"
+        display="inline-block"
+        boxShadow="0 4px 12px rgba(0, 0, 0, 0.3)"
+      >
+        <Text
+          fontFamily="'Nosifer', cursive"
+          fontSize={{ base: "xl", md: "2xl" }}
+          color="#F6E0B3"
+        >
+          Boerne Blazed and Drippin'
+        </Text>
+      </Box>
     </Box>
   );
 };
