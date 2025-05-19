@@ -20,7 +20,7 @@ const Social = () => {
       minH="60vh"
       textAlign="center"
     >
-      <Heading as="h2" size="xl" mb={10} fontFamily="Bungee, sans-serif">
+      <Heading as="h2" size="xl" mb={10} fontFamily="'Nosifer', cursive">
         Follow Us
       </Heading>
       <HStack spacing={10} justify="center">

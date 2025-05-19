@@ -16,7 +16,7 @@ const About = () => {
         align="center"
         justify="center"
         mb={8}
-        fontFamily="'Bungee', sans-serif"
+        fontFamily="'Nosifer', cursive"
         fontSize={{ base: "3xl", md: "4xl" }}
         fontWeight="bold"
         color="#000000"
@@ -79,7 +79,7 @@ const About = () => {
             objectFit="cover"
         />
         </Box>
-        <Heading as="h2" size="xl" color="#000000" fontFamily="'Bungee', sans-serif">
+        <Heading as="h2" size="xl" color="#000000" fontFamily="'Nosifer', cursive">
           About Us
         </Heading>
         <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">

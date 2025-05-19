@@ -25,7 +25,7 @@ const Menu = () => {
           size="xl"
           textAlign="center"
           mb={10}
-          fontFamily="Bungee, sans-serif"
+          fontFamily="'Nosifer', cursive"
         >
           Menu
         </Heading>
@@ -53,7 +53,7 @@ const Menu = () => {
                 w="100%"
                 objectFit="cover"
               />
-              <Heading size="lg" mb={2}>
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
                 Legendary Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
@@ -87,7 +87,7 @@ const Menu = () => {
                 w="100%"
                 objectFit="cover"
               />
-              <Heading size="lg" mb={2}>
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
@@ -121,7 +121,7 @@ const Menu = () => {
                 w="100%"
                 objectFit="cover"
               />
-              <Heading size="lg" mb={2}>
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
                 Hill Country Blaze-Drizzled Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
