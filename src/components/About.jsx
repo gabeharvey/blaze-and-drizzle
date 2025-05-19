@@ -17,7 +17,7 @@ const About = () => {
         justify="center"
         mb={8}
         fontFamily="'Nosifer', cursive"
-        fontSize={{ base: "3xl", md: "4xl" }}
+        fontSize={{ base: "2xl", md: "3xl" }}
         fontWeight="bold"
         color="#000000"
         flexWrap="wrap"
