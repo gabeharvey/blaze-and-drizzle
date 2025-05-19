@@ -45,6 +45,7 @@ const Contact = () => {
             borderRadius="md"
             fontFamily="'Nosifer', cursive"
             boxShadow="lg"
+            textAlign="center"
             >
             <Text fontWeight="bold">Message sent!</Text>
             <Text>We'll get back to you soon.</Text>
@@ -67,6 +68,7 @@ const Contact = () => {
             borderRadius="md"
             fontFamily="'Nosifer', cursive"
             boxShadow="lg"
+            textAlign="center"
             >
             <Text fontWeight="bold">Failed to send</Text>
             <Text>Please try again later.</Text>
