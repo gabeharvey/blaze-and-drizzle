@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Box, Heading, HStack, Link, Icon, Text } from "@chakra-ui/react";
+import { Box, Heading, HStack, Link, Icon, Text, Flex, Image } from "@chakra-ui/react";
 import {
   FaFacebook,
   FaInstagram,
@@ -24,21 +24,30 @@ const Social = () => {
       <Heading as="h2" size="lg" mb={10} fontFamily="'Nosifer', cursive">
         Follow Us
       </Heading>
+
       <HStack spacing={10} justify="center">
-        <Link href="https://www.facebook.com/people/Blaze-and-Drizzle/61575836171289/?mibextid=wwXIfr&rdid=slL0PJ5Woz74jII3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1A1CkSpPj8%2F%3Fmibextid%3DwwXIfr" isExternal aria-label="Facebook">
+        <Link
+          href="https://www.facebook.com/people/Blaze-and-Drizzle/61575836171289/?mibextid=wwXIfr&rdid=slL0PJ5Woz74jII3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1A1CkSpPj8%2F%3Fmibextid%3DwwXIfr"
+          isExternal
+          aria-label="Facebook"
+        >
           <Icon
             as={FaFacebook}
             boxSize={10}
-            color="#1877F2" 
+            color="#1877F2"
             transition="transform 0.2s"
             _hover={{ transform: "scale(1.1)" }}
           />
         </Link>
-        <Link href="https://www.instagram.com/blaze_and_drizzle" isExternal aria-label="Instagram">
+        <Link
+          href="https://www.instagram.com/blaze_and_drizzle"
+          isExternal
+          aria-label="Instagram"
+        >
           <Icon
             as={FaInstagram}
             boxSize={10}
-            color="#E4405F" 
+            color="#E4405F"
             transition="transform 0.2s"
             _hover={{ transform: "scale(1.1)" }}
           />
@@ -47,22 +56,26 @@ const Social = () => {
           <Icon
             as={FaSnapchatGhost}
             boxSize={10}
-            color="#FFFC00" 
+            color="#FFFC00"
             transition="transform 0.2s"
             _hover={{ transform: "scale(1.1)" }}
           />
         </Link>
-        <Link href="https://www.tiktok.com/@blaze_and_drizzle?lang=en" isExternal aria-label="TikTok">
+        <Link
+          href="https://www.tiktok.com/@blaze_and_drizzle?lang=en"
+          isExternal
+          aria-label="TikTok"
+        >
           <Icon
             as={FaTiktok}
             boxSize={10}
-            color="#69C9D0" 
+            color="#69C9D0"
             transition="transform 0.2s"
             _hover={{ transform: "scale(1.1)" }}
           />
         </Link>
       </HStack>
-      
+
       <Box
         mt={10}
         py={4}
@@ -80,6 +93,24 @@ const Social = () => {
           Boerne Blazed and Drippin'
         </Text>
       </Box>
+      <Flex justify="center" mt={12}>
+        <Box
+          bg="#FFFFFF"
+          borderRadius="md"
+          overflow="hidden"
+          boxShadow="md"
+          maxW="600px"
+          w="full"
+        >
+          <Image
+            src="/woman-pickup.jpg"
+            alt="First"
+            objectFit="cover"
+            width="100%"
+            height="auto"
+          />
+        </Box>
+      </Flex>
     </Box>
   );
 };
