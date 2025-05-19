@@ -9,6 +9,7 @@ const theme = extendTheme({
       body: {
         bg: '#F6E0B3', 
         color: '#000000', 
+        overflowX: 'hidden',
       },
     },
   },
