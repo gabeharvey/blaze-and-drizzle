@@ -5,7 +5,7 @@ import TexasFlagGIF from "/texas-flag.gif";
 const About = () => {
   return (
     <Box
-      bg="#2E2E2E"
+      bg="#F6E0B3"
       py={{ base: 10, md: 16 }}
       px={{ base: 6, md: 20 }}
       minH="100vh"
@@ -16,22 +16,22 @@ const About = () => {
         align="center"
         justify="center"
         mb={8}
-        fontFamily="'Arvo', serif"
+        fontFamily="'Bungee', sans-serif"
         fontSize={{ base: "3xl", md: "4xl" }}
         fontWeight="bold"
-        color="#FAF3E0"
+        color="#000000"
         flexWrap="wrap"
         >
-        <Text as="span" mr={2} textShadow="0px 4px #708090">
+        <Text as="span" mr={2} textShadow="0px 4px #F6E0B3">
             We
         </Text>
         <Text
             as="span"
-            color="#708090"
+            color="#F6E0B3"
             fontSize={{ base: "4xl", md: "5xl" }}
             mx={1}
             animation="heartbeat 1.5s infinite"
-            textShadow="0px 0px #708090"
+            textShadow="0px 0px #F6E0B3"
         >
             ❤️
         </Text>
@@ -39,7 +39,7 @@ const About = () => {
             as="span"
             mx={2}
             _hover={{ transform: "scale(1.05)", transition: "transform 0.3s" }}
-            textShadow="0px 4px #708090"
+            textShadow="0px 4px #F6E0B3"
         >
             Boerne
         </Text>
@@ -79,16 +79,20 @@ const About = () => {
             objectFit="cover"
         />
         </Box>
-        <Heading as="h2" size="xl" color="#FAF3E0" fontFamily="'Arvo', serif">
+        <Heading as="h2" size="xl" color="#000000" fontFamily="'Bungee', sans-serif">
           About Us
         </Heading>
-
-        <Text fontSize="lg" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
-          Welcome to <strong>Blaze and Drizzle</strong>, proudly founded in Boerne, Texas in 2025. We are your Texas Hill Country destination for slow-cooked, smoky perfection with a bold Texas twist and unforgettable hospitality.
+        <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">
+          Welcome to <Box as="span" fontWeight="bold">Blaze & </Box>
+          <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box>,
+          proudly founded in Boerne, Texas in 2025. We are your Texas Hill Country destination for slow-cooked, smoky perfection with a bold Texas twist and unforgettable hospitality.
         </Text>
 
-        <Text fontSize="lg" color="#FAF3E0" maxW="3xl" fontFamily="'Arvo', serif">
-          From our legendary brisket and fall-off-the-bone ribs to our signature sauces and big Texas sides, everything we serve is crafted with passion, fire, and flavor. Blaze and Drizzle is here to serve up serious smoke.
+        <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif" mt={4}>
+          From our legendary brizket and fall-off-the-bone ribz to our signature sauces and big Texas sides,
+          everything we serve is crafted with passion, fire, and flavor.
+          <Box as="span" fontWeight="bold"> Blaze & </Box>
+          <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
       </VStack>
     </Box>
@@ -96,4 +100,3 @@ const About = () => {
 };
 
 export default About;
-

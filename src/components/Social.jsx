@@ -7,20 +7,20 @@ import {
 } from "react-icons/fa";
 
 const Social = () => {
-  const textColor = "#FAF3E0";
-  const bgColor = "#2E2E2E";
+  const textColor = "#000000";
+  const bgColor = "#F6E0B3";
 
   return (
     <Box
       bg={bgColor}
       color={textColor}
-      fontFamily="Arvo, serif"
+      fontFamily="Bungee, sans-serif"
       px={{ base: 4, md: 12 }}
       py={{ base: 10, md: 20 }}
       minH="60vh"
       textAlign="center"
     >
-      <Heading as="h2" size="xl" mb={10}>
+      <Heading as="h2" size="xl" mb={10} fontFamily="Bungee, sans-serif">
         Follow Us
       </Heading>
       <HStack spacing={10} justify="center">

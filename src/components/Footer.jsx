@@ -4,14 +4,13 @@ function Footer() {
   return (
     <Box
       as="footer"
-      bgGradient="linear(to-b, #5C2E00,  #8B0000, #2E2E2E)"
+      bg="#000000"
       py="2rem"
       px="2rem"
-      fontFamily="'Black Ops One', system-ui"
-      color="#FAF3E0"
+      fontFamily="'Bungee', sans-serif"
+      color="#F6E0B3"
       borderTopLeftRadius="20px"
       borderTopRightRadius="20px"
-      boxShadow="0 -8px 15px rgba(0, 0, 0, 0.5)"
       mt="auto"
     >
       <Flex
@@ -24,13 +23,13 @@ function Footer() {
           fontSize="lg"
           fontWeight="bold"
           letterSpacing="wider"
-          textAlign='center'
-          sx={{
-            textShadow: '1px 1px 2px #EA2127',
-            WebkitTextStroke: '0.3px #EA2127',
-          }}
+          textAlign="center"
         >
-          ©2025 Blaze and Drizzle LLC
+          ©2025 Blaze &{' '}
+          <Box as="span" fontFamily="'Nosifer', cursive">
+            Drizzle
+          </Box>{' '}
+          LLC
         </Text>
       </Flex>
     </Box>

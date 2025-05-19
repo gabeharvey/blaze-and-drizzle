@@ -1,12 +1,12 @@
 import {
     Box,
     Flex,
-    Heading,
     Spacer,
     Link as ChakraLink,
     IconButton,
     useDisclosure,
     Text,
+    Image
 } from '@chakra-ui/react';
 import { CloseIcon } from '@chakra-ui/icons';
 import { Link as ScrollLink } from 'react-scroll';
@@ -70,41 +70,31 @@ const Navbar = () => {
             position="sticky"
             top="0"
             zIndex="999"
-            bgGradient="linear(to-b, #2E2E2E, #8B0000, #5C2E00)"
+            bg="black"
             borderBottomLeftRadius="20px"
             borderBottomRightRadius="20px"
             pb="2rem"
             pt="2.5rem"
             px="2rem"
-            boxShadow="0 8px 15px rgba(0, 0, 0, 0.5)"
-            fontFamily="'Black Ops One', system-ui"
+            boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
+            fontFamily="'Bungee', sans-serif"
         >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
-                    flexDirection={isMobile ? 'column' : 'row'}
-                    alignItems={isMobile ? 'flex-start' : 'center'}
+                flexDirection={isMobile ? 'column' : 'row'}
+                alignItems={isMobile ? 'flex-start' : 'center'}
                 >
-                    <motion.div
-                        initial={{ opacity: 0, y: -20 }}  
-                        animate={{ opacity: 1, y: 0 }}  
-                        transition={{ duration: 1, ease: 'easeOut' }}  
-                    >
-                <Heading
-                    fontSize={{ base: '2xl', md: '3xl' }}
-                    fontFamily="'Black Ops One', system-ui"
-                    fontWeight="extra bold"
-                    letterSpacing="wider"
-                    mb={4}
-                    className="shimmer-text"
-                    color="#FAF3E0"
-                    sx={{
-                        textShadow: '2px 2px 3px #EA2127',
-                        WebkitTextStroke: '0.5px #EA2127',
-                    }}
+                <Box
+                    maxW={{ base: '220px', md: '260px', lg: '340px' }}
+                    w="100%"
                 >
-                    Blaze and Drizzle
-                </Heading>
-                    </motion.div>
+                    <Image
+                    src="/blaze-and-drizzle-logo-4.png"
+                    alt="Logo"
+                    w="100%"
+                    h="auto"
+                    />
+                </Box>
                 </Flex>
                 <Spacer />
                 <IconButton
@@ -112,29 +102,29 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#FAF3E0' }}
-                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }} 
+                                whileHover={{ scale: 1.2, color: '#F6E0B3' }}
+                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }}
                                 transition={{
                                     duration: 1.5,
                                     repeat: Infinity,
                                     repeatType: 'loop',
                                     ease: 'easeInOut',
                                 }}
-                                style={{ color: '#FAF3E0' }}
+                                style={{ color: '#F6E0B3' }}
                             >
                                 <CloseIcon />
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#FAF3E0' }}
-                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }} 
+                                whileHover={{ scale: 1.2, color: '#F6E0B3' }}
+                                animate={{ scale: [1, 1.1, 1], opacity: [1, 0.7, 1] }}
                                 transition={{
                                     duration: 1.5,
                                     repeat: Infinity,
                                     repeatType: 'loop',
                                     ease: 'easeInOut',
                                 }}
-                                style={{ color: '#FAF3E0' }}
+                                style={{ color: '#F6E0B3' }}
                             >
                                 <FaFire />
                             </motion.div>
@@ -159,21 +149,25 @@ const Navbar = () => {
                     justifyContent="space-evenly"
                     whiteSpace="nowrap"
                 >
-                    {['ABOUT', 'SOCIAL', 'MENU' ].map((text, index) => (
+                    {['ABOUT', 'SOCIAL', 'MENU'].map((text, index) => (
                         <ChakraLink
                             key={index}
                             as={ScrollLink}
-                            to={text.replace(' ', '-').toLowerCase()} 
+                            to={text.replace(' ', '-').toLowerCase()}
                             spy={true}
                             smooth={true}
-                            offset={-100} 
+                            offset={-100}
                             duration={500}
                             fontSize="md"
                             fontWeight="extrabold"
-                            fontFamily="'Arvo', system-ui"
-                            color="#FAF3E0"
+                            fontFamily="'Bungee', sans-serif"
+                            color="#F6E0B3"
                             position="relative"
-                            _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FAF3E0' }}
+                            _hover={{
+                                transform: 'scale(1.05)',
+                                transition: 'transform 0.2s',
+                                color: '#F6E0B3',
+                            }}
                             _after={{
                                 content: '""',
                                 position: 'absolute',
@@ -201,13 +195,13 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgGradient="linear(to-b, #2E2E2E, #8B0000, #5C2E00)"
+                            bg="black"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
-                            color="#FAF3E0"
+                            color="#F6E0B3"
                             height="100%"
-                            boxShadow="0 0 20px rgba(0, 0, 0, 0.9)"
+                            boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
                         >
                             <Flex alignItems="center" justifyContent="space-between" mb="1rem">
                                 <Text fontSize="2xl" ml="20px" fontWeight="bold">
@@ -215,7 +209,7 @@ const Navbar = () => {
                                 </Text>
                                 <IconButton
                                     icon={<CloseIcon w={6} h={6} />}
-                                    color="#FAF3E0"
+                                    color="#F6E0B3"
                                     aria-label="Close Menu"
                                     variant="outline"
                                     onClick={onClose}
@@ -227,23 +221,26 @@ const Navbar = () => {
                                     borderColor="transparent"
                                 />
                             </Flex>
-                            {/* <Divider /> */}
                             <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
                                 {['ABOUT', 'SOCIAL', 'MENU'].map((text, index) => (
                                     <ChakraLink
                                         key={index}
                                         as={ScrollLink}
-                                        to={text.replace(' ', '-').toLowerCase()} 
+                                        to={text.replace(' ', '-').toLowerCase()}
                                         spy={true}
                                         smooth={true}
                                         offset={-100}
                                         duration={500}
                                         fontSize="lg"
-                                        fontFamily="'Arvo', system-ui"
+                                        fontFamily="'Bungee', sans-serif"
                                         fontWeight="bold"
-                                        color="#FAF3E0"
+                                        color="#F6E0B3"
                                         position="relative"
-                                        _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#FAF3E0' }}
+                                        _hover={{
+                                            transform: 'scale(1.05)',
+                                            transition: 'transform 0.2s',
+                                            color: '#F6E0B3',
+                                        }}
                                         style={{ cursor: 'pointer' }}
                                     >
                                         {text}

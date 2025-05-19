@@ -7,8 +7,8 @@ import {
 } from "@chakra-ui/react";
 
 const Menu = () => {
-  const textColor = "#FAF3E0";
-  const bgColor = "#2E2E2E";
+  const textColor = "#000000";
+  const bgColor = "#F6E0B3";
 
   return (
     <Box
@@ -17,10 +17,16 @@ const Menu = () => {
       py={{ base: 10, md: 20 }}
       bg={bgColor}
       color={textColor}
-      fontFamily="Arvo, serif"
+      fontFamily="Bungee, sans-serif"
     >
       <Box bg={bgColor} borderRadius="xl" p={8} maxW="6xl" mx="auto">
-        <Heading as="h2" size="xl" textAlign="center" mb={10}>
+        <Heading
+          as="h2"
+          size="xl"
+          textAlign="center"
+          mb={10}
+          fontFamily="Bungee, sans-serif"
+        >
           Menu
         </Heading>
 
@@ -30,10 +36,12 @@ const Menu = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            border="1px solid #708090"
+            bg="#000000"
+            color="#F6E0B3"
             borderRadius="lg"
             p={4}
             minH="100%"
+            border="1px solid #F6E0B3"
           >
             <Box>
               <Image
@@ -62,10 +70,12 @@ const Menu = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            border="1px solid #708090"
+            bg="#000000"
+            color="#F6E0B3"
             borderRadius="lg"
             p={4}
             minH="100%"
+            border="1px solid #F6E0B3"
           >
             <Box>
               <Image
@@ -94,13 +104,15 @@ const Menu = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            border="1px solid #708090"
+            bg="#000000"
+            color="#F6E0B3"
             borderRadius="lg"
             p={4}
             minH="100%"
-            >
+            border="1px solid #F6E0B3"
+          >
             <Box>
-                <Image
+              <Image
                 src="/beef-ribs.jpg"
                 alt="Beef Ribs"
                 borderRadius="lg"
@@ -108,18 +120,18 @@ const Menu = () => {
                 h="250px"
                 w="100%"
                 objectFit="cover"
-                />
-                <Heading size="lg" mb={2}>
+              />
+              <Heading size="lg" mb={2}>
                 Hill Country Blaze-Drizzled Beef Ribz
-                </Heading>
-                <Text fontSize="md" mb={2}>
+              </Heading>
+              <Text fontSize="md" mb={2}>
                 Meaty, slow-cooked beef ribs kissed by smoke and fire, then drizzled in our signature spicy-sweet blaze sauce.
-                </Text>
+              </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-                $19
+              $19
             </Text>
-            </Box>
+          </Box>
         </SimpleGrid>
       </Box>
     </Box>
