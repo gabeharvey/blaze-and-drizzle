@@ -65,15 +65,16 @@ const Navbar = () => {
     };
 
     return (
-        <Box position="sticky" top="0" zIndex="999" bg="transparent">
+        <Box position="sticky" top="0" zIndex="999" bg="transparent" m="0" p="0" w="100vw" overflowX="hidden">
             <Box
-                bg="#000000"
-                pb="2rem"
-                pt="2.5rem"
-                px="2rem"
-                fontFamily="'Bungee', sans-serif"
-                position="relative"
-                zIndex="2"
+            bg="#000000"
+            pt="2.5rem"
+            pb="2rem"
+            px="0" 
+            fontFamily="'Bungee', sans-serif"
+            position="relative"
+            zIndex="2"
+            w="100vw" 
             >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
@@ -261,23 +262,23 @@ const Navbar = () => {
             </Flex>
             </Box>
             <Box
-                mt={{ base: '-0.3rem', md: '-1.1rem' }}
-                position="relative"
-                zIndex="1"
-                left="0"
-                right="0"
-                w="100%"
-                overflow="hidden"
+            mt={{ base: '-0.3rem', md: '-1.1rem' }}
+            position="relative"
+            zIndex="1"
+            w="100vw"
+            overflow="hidden"
+            m="0"
+            p="0"
             >
-                <Image
-                    src="/wave-border.svg"
-                    alt="Navbar bottom border"
-                    w="100%"
-                    h="auto"
-                    display="block"
-                    margin="0"
-                    padding="0"
-                />
+            <Image
+                src="/wave-border.svg"
+                alt="Navbar bottom border"
+                w="100vw"
+                h="auto"
+                display="block"
+                margin="0"
+                padding="0"
+            />
             </Box>
         </Box>
     );
