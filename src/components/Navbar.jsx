@@ -204,7 +204,7 @@ const Navbar = () => {
                             boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
                         >
                             <Flex alignItems="center" justifyContent="space-between" mb="1rem">
-                                <Text fontSize="2xl" ml="20px" fontWeight="bold">
+                                <Text fontSize="2xl" ml="20px" fontWeight="bold" fontFamily="'Nosifer', cursive">
                                     Menu
                                 </Text>
                                 <IconButton
