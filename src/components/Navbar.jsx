@@ -262,15 +262,12 @@ const Navbar = () => {
             </Box>
             <Box mt={{ base: '-0.3rem', md: '-1.1rem' }} w="100%" zIndex="1">
                 <Image
-  src="/wave-border.svg"
-  alt="Navbar bottom border"
-  w="100%"
-  h="auto"
-  display="block"
-  marginLeft="-0px"
-  marginRight="-1px"
-/>
-
+                src="/wave-border.svg"
+                alt="Navbar bottom border"
+                w="100%"
+                h="auto"
+                display="block"
+                />
             </Box>
         </Box>
     );
