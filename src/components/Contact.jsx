@@ -169,7 +169,7 @@ const Contact = () => {
               fontFamily="'Nosifer', cursive"
               textAlign="center"
             >
-              Get In Touch
+              Contact Info
             </Heading>
             <Text fontSize="md" mb={2}>
               Have questions about the drizzle? Reach out and we’ll fire up a reply!
