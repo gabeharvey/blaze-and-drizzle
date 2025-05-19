@@ -65,20 +65,16 @@ const Navbar = () => {
     };
 
     return (
-        <Box
-            w="100%"
-            position="sticky"
-            top="0"
-            zIndex="999"
-            bg="black"
-            borderBottomLeftRadius="20px"
-            borderBottomRightRadius="20px"
-            pb="2rem"
-            pt="2.5rem"
-            px="2rem"
-            boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
-            fontFamily="'Bungee', sans-serif"
-        >
+        <Box position="sticky" top="0" zIndex="999" bg="transparent">
+            <Box
+                bg="#000000"
+                pb="2rem"
+                pt="2.5rem"
+                px="2rem"
+                fontFamily="'Bungee', sans-serif"
+                position="relative"
+                zIndex="2"
+            >
             <Flex alignItems="center" justifyContent="space-between" wrap="wrap">
                 <Flex
                 flexDirection={isMobile ? 'column' : 'row'}
@@ -263,6 +259,15 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </Flex>
+            </Box>
+            <Box mt={{ base: '-0.3rem', md: '-1.1rem' }} w="100%" zIndex="1">
+                <Image
+                src="/wave-border.svg"
+                alt="Navbar bottom border"
+                w="100%"
+                h="auto"
+                />
+            </Box>
         </Box>
     );
 };
