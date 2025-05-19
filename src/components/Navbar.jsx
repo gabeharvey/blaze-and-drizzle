@@ -161,7 +161,7 @@ const Navbar = () => {
                     justifyContent="space-evenly"
                     whiteSpace="nowrap"
                 >
-                    {['ABOUT', 'SOCIAL', 'MENU'].map((text, index) => (
+                    {['ABOUT', 'SOCIAL', 'MENU', 'CONTACT'].map((text, index) => (
                         <ChakraLink
                             key={index}
                             as={ScrollLink}
@@ -234,7 +234,7 @@ const Navbar = () => {
                                 />
                             </Flex>
                             <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
-                                {['ABOUT', 'SOCIAL', 'MENU'].map((text, index) => (
+                                {['ABOUT', 'SOCIAL', 'MENU', 'CONTACT'].map((text, index) => (
                                     <ChakraLink
                                         key={index}
                                         as={ScrollLink}
