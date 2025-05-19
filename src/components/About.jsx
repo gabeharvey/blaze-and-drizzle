@@ -12,45 +12,53 @@ const About = () => {
       textAlign="center"
     >
       {/* Banner */}
-        <Flex
-        align="center"
-        justify="center"
-        mb={8}
-        fontFamily="'Nosifer', cursive"
-        fontSize={{ base: "2xl", md: "3xl" }}
-        fontWeight="bold"
-        color="#000000"
-        flexWrap="wrap"
-        >
-        <Text as="span" mr={2} textShadow="0px 4px #F6E0B3">
-            We
-        </Text>
-        <Text
-            as="span"
-            color="#F6E0B3"
-            fontSize={{ base: "4xl", md: "5xl" }}
-            mx={1}
-            animation="heartbeat 1.5s infinite"
-            textShadow="0px 0px #F6E0B3"
-        >
-            ❤️
-        </Text>
-        <Text
-            as="span"
-            mx={2}
-            _hover={{ transform: "scale(1.05)", transition: "transform 0.3s" }}
-            textShadow="0px 4px #F6E0B3"
-        >
-            Boerne
-        </Text>
-        <Image
-            src={TexasFlagGIF}
-            alt="Waving Texas Flag"
-            boxSize="50px"
-            ml={2}
-            animation="floatFlag 3s ease-in-out infinite"
-        />
-        </Flex>
+<Flex
+  direction="column"
+  align="center"
+  justify="center"
+  mb={8}
+  fontFamily="'Nosifer', cursive"
+  fontWeight="bold"
+  color="#000000"
+>
+  {/* Text Row */}
+    <Flex
+      align="center"
+      justify="center"
+      fontSize={{ base: "3xl", md: "4xl" }}
+      flexWrap="wrap"
+      textAlign="center"
+      mb={4}
+    >
+      <Text as="span" mr={2} textShadow="0px 4px #F6E0B3">
+        We
+      </Text>
+      <Text
+        as="span"
+        color="#F6E0B3"
+        fontSize={{ base: "4xl", md: "5xl" }}
+        mx={1}
+        animation="heartbeat 1.5s infinite"
+        textShadow="0px 0px #F6E0B3"
+      >
+        ❤️
+      </Text>
+      <Text
+        as="span"
+        mx={2}
+        _hover={{ transform: "scale(1.05)", transition: "transform 0.3s" }}
+        textShadow="0px 4px #F6E0B3"
+      >
+        Boerne
+      </Text>
+    </Flex>
+    <Image
+      src={TexasFlagGIF}
+      alt="Waving Texas Flag"
+      boxSize={{ base: "80px", md: "100px" }}
+      animation="floatFlag 3s ease-in-out infinite"
+    />
+  </Flex>
       <VStack spacing={6}>
         <Box
         w="100%"
