@@ -262,22 +262,25 @@ const Navbar = () => {
             </Flex>
             </Box>
             <Box
-            mt={{ base: '-0.3rem', md: '-1.1rem' }}
-            position="relative"
-            zIndex="1"
             w="100vw"
             overflow="hidden"
             m="0"
             p="0"
+            position="relative"
+            zIndex="1"
+            mt={{ base: '-0.3rem', md: '-1.1rem' }}
             >
             <Image
                 src="/wave-border.svg"
                 alt="Navbar bottom border"
                 w="100vw"
+                minW="100vw"
+                maxW="none"
                 h="auto"
                 display="block"
-                margin="0"
-                padding="0"
+                m="0"
+                p="0"
+                objectFit="cover"
             />
             </Box>
         </Box>
