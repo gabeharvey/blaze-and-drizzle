@@ -6,7 +6,7 @@ function Footer() {
       as="footer"
       bg="#000000"
       py="3rem"
-      px="2rem"
+      px={0}  // Remove horizontal padding to avoid clipping SVG overflow
       fontFamily="'Bungee', sans-serif"
       color="#F6E0B3"
       mt="auto"
@@ -31,7 +31,7 @@ function Footer() {
         <Image
           src="/grunge-divider-1.svg"
           alt="Footer top border"
-          width="120vw" // wider than viewport to overflow on sides
+          width="140vw"  // wider than before to fully cover edges
           height="auto"
           display="block"
           transform="scaleY(0.999)"
@@ -47,7 +47,7 @@ function Footer() {
         zIndex={3}
         pt="5rem"
         pb="0"
-        px="1rem"
+        px="2rem"  // Add padding here inside content area, separate from svg container
         textAlign="center"
         flexWrap="wrap"
       >
