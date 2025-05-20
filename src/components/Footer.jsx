@@ -6,7 +6,7 @@ function Footer() {
       as="footer"
       bg="#000000"
       py="3rem"
-      px={0}  // Remove horizontal padding to avoid clipping SVG overflow
+      px={0} // no horizontal padding to avoid clipping SVG overflow
       fontFamily="'Bungee', sans-serif"
       color="#F6E0B3"
       mt="auto"
@@ -16,29 +16,29 @@ function Footer() {
       border="none"
     >
       {/* SVG border container with overflow and negative margins */}
-      <Box
-        position="absolute"
-        top="0"
-        left="50%"
-        width="100vw"
-        marginLeft="-50vw"
-        overflow="hidden"
-        zIndex={2}
-        pointerEvents="none"
-        userSelect="none"
-        style={{ transform: 'scaleY(-1) scaleX(-1)' }}
-      >
-        <Image
-          src="/grunge-divider-1.svg"
-          alt="Footer top border"
-          width="140vw"  // wider than before to fully cover edges
-          height="auto"
-          display="block"
-          transform="scaleY(0.999)"
-          transformOrigin="top"
-          margin="0 auto"
-        />
-      </Box>
+<Box
+  position="absolute"
+  top="0"
+  left="50%"
+  width="100vw"
+  marginLeft="-50vw"
+  overflow="hidden"
+  zIndex={2}
+  pointerEvents="none"
+  userSelect="none"
+  style={{ transform: 'scaleY(-1) scaleX(-1)' }}
+>
+  <Image
+    src="/grunge-divider-1.svg"
+    alt="Footer top border"
+    width="140vw"  // wider than viewport for overflow on edges
+    height="auto"
+    display="block"
+    transform="scaleY(0.999)"
+    transformOrigin="top"
+  />
+</Box>
+
 
       <Flex
         justify="center"
@@ -47,7 +47,7 @@ function Footer() {
         zIndex={3}
         pt="5rem"
         pb="0"
-        px="2rem"  // Add padding here inside content area, separate from svg container
+        px="2rem"  // content padding inside footer
         textAlign="center"
         flexWrap="wrap"
       >
