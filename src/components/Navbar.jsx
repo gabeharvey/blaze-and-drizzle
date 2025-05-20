@@ -261,19 +261,17 @@ const Navbar = () => {
             </Flex>
             </Box>
             <Box mt={{ base: '-.1rem', md: '-.2rem' }} w="100%" zIndex="1" overflow="hidden"
-  lineHeight="0">
-                <Image
-  src="/slant-divider.svg"
-  alt="Navbar bottom border"
-  w="100%"
-  h="auto"
-  display="block"
-  position="relative"
-  left="-3px" 
-  style={{ margin: 0, padding: 0, display: 'block' }}
-/>
-
-
+                lineHeight="0">
+                                <Image
+                src="/slant-divider.svg"
+                alt="Navbar bottom border"
+                w="100%"
+                h="auto"
+                display="block"
+                position="relative"
+                left="-3px" 
+                style={{ margin: 0, padding: 0, display: 'block' }}
+                />
             </Box>
         </Box>
     );
