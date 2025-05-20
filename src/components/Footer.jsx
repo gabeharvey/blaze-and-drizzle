@@ -15,31 +15,29 @@ function Footer() {
       overflow="hidden"
       border="none"
     >
-
+      {/* SVG border container with overflow and negative margins */}
       <Box
         position="absolute"
         top="0"
-        left="0"
-        w="100%"
+        left="50%"
+        width="100vw"
+        marginLeft="-50vw"
         overflow="hidden"
         zIndex={2}
         pointerEvents="none"
         userSelect="none"
         style={{ transform: 'scaleY(-1) scaleX(-1)' }}
       >
-        <Box position="relative" w="100%">
         <Image
-        src="/grunge-divider-1.svg"
-        alt="Navbar bottom border"
-        w="100%"
-        h="auto"
-        transform="scaleY(.999)" 
-        transformOrigin="top"
-        display="block"
-      />
-        <Box position="absolute" top="0" left="0" w="100%" h="1px" bg="#000000" zIndex="2" />
-        <Box position="absolute" bottom="0" left="0" w="100%" h="1px" bg="#F6E0B3" zIndex="2" />
-      </Box>
+          src="/grunge-divider-1.svg"
+          alt="Footer top border"
+          width="120vw" // wider than viewport to overflow on sides
+          height="auto"
+          display="block"
+          transform="scaleY(0.999)"
+          transformOrigin="top"
+          margin="0 auto"
+        />
       </Box>
 
       <Flex
