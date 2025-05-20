@@ -260,27 +260,29 @@ const Navbar = () => {
                 )}
             </Flex>
             </Box>
-<Box
-  mt="-1px"
-  w="100%"
-  overflow="hidden"
-  zIndex="1"
-  lineHeight="0"
->
-  <Image
-    src="/grunge-divider.svg"
-    alt="Navbar bottom border"
-    width="100%"
-    height="auto"
-    objectFit="cover"
-    display="block"
-    margin="0"
-    padding="0"
-  />
-</Box>
-
-        </Box>
-    );
-};
+                    <Box
+                    mt="-1px"
+                    w="100vw"
+                    overflow="hidden"
+                    zIndex="1"
+                    lineHeight="0"
+                    position="relative"
+                    left="50%"
+                    right="50%"
+                    ml="-50vw"
+                    mr="-50vw"
+                    >
+                    <Image
+                        src="/grunge-divider.svg"
+                        alt="Navbar bottom border"
+                        w="100vw"
+                        h="auto"
+                        objectFit="cover"
+                        display="block"
+                    />
+                    </Box>
+                    </Box>
+                );
+            };
 
 export default Navbar;
