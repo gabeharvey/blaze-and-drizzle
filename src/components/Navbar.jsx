@@ -65,7 +65,7 @@ const Navbar = () => {
     };
 
     return (
-        <Box position="sticky" top="0" zIndex="999" bg="transparent" m="0" p="0" w="100vw" overflowX="hidden">
+        <Box position="sticky" top="0" zIndex="999" bg="transparent">
             <Box
                 bg="#000000"
                 pb="2rem"
@@ -260,24 +260,15 @@ const Navbar = () => {
                 )}
             </Flex>
             </Box>
-            <Box
-                mt={{ base: '-0.3rem', md: '-1.1rem' }}
-                position="relative"
-                zIndex="1"
-                left="0"
-                right="0"
-                w="100%"
-                overflow="hidden"
-            >
+            <Box mt={{ base: '-0.3rem', md: '-1.1rem' }} w="100%" zIndex="1">
                 <Image
-                    src="/wave-border.svg"
-                    alt="Navbar bottom border"
-                    w="100%"
-                    h="auto"
-                    display="block"
-                    margin="0"
-                    padding="0"
-                />
+  src="/wave-border.svg"
+  alt="Navbar bottom border"
+  w="100%"
+  h="auto"
+  display="block"
+/>
+
             </Box>
         </Box>
     );
