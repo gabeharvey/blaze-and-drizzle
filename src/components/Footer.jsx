@@ -35,6 +35,7 @@ function Footer() {
     display="block"
     transform="scaleY(0.999)"
     transformOrigin="top"
+    minWidth="100vw"
   />
 </Box>
 
