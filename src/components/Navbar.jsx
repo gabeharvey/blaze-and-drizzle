@@ -247,7 +247,7 @@ const Navbar = () => {
                                 />
                             </Flex>
                                 <Flex align="center" my={4} gap={1} wrap="nowrap" justifyContent="space-evenly" color="#F6E0B3" fontWeight="bold" fontFamily="Chakra Petch" fontSize="lg" userSelect="none" width="100%">
-                                {Array(30).fill('◆ ').map((diamond, i) => (
+                                {Array(30).fill('◆').map((diamond, i) => (
                                     <Text key={i} mx="2px">{diamond}</Text>
                                 ))}
                                 </Flex>
