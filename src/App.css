@@ -17,7 +17,12 @@
 }
 
 .flame-bg {
-  background: linear-gradient(135deg, #FF4500, #FFD700, #FF2400, #FF6B00, #FF4500);
+  background: linear-gradient(    135deg,
+    #5C2E00, 
+    #A35C00, 
+    #7E3F00, 
+    #C77E00,  
+    #5C2E00);
   background-size: 400% 400%;
   animation: flameBackground 12s ease-in-out infinite;
 }
