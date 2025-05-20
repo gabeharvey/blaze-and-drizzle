@@ -261,22 +261,19 @@ const Navbar = () => {
             </Flex>
             </Box>
                     <Box
-                    mt="-1px"
-                    w="100vw"
-                    overflow="hidden"
-                    zIndex="1"
-                    lineHeight="0"
                     position="relative"
-                    left="50%"
-                    right="50%"
-                    ml="-50vw"
-                    mr="-50vw"
+                    width="100%"
+                    overflow="hidden"
+                    zIndex={1}
+                    height="auto"
                     >
                     <Image
                         src="/grunge-divider.svg"
                         alt="Navbar bottom border"
-                        w="100vw"
-                        h="auto"
+                        width="120vw" 
+                        maxWidth="none" 
+                        marginLeft="-10vw" 
+                        height="auto"
                         objectFit="cover"
                         display="block"
                     />
