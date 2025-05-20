@@ -102,6 +102,34 @@ const About = () => {
           <Box as="span" fontWeight="bold"> Blaze & </Box>
           <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
+<Box
+  mt={10}
+  maxW="600px"
+  mx="auto"
+  borderRadius="xl"
+  overflow="hidden"
+  boxShadow="lg"
+  border="20px solid black"
+  bg="white"
+  textAlign="center"
+>
+  <img
+    src="/bbq-sauce-2.png"
+    alt="Boerne"
+    style={{ width: "100%", height: "auto", display: "block" }}
+    
+  />
+    <Text
+    fontFamily="'Nosifer', cursive"
+    fontSize={{ base: "2xl", md: "3xl" }}
+    color="#F6E0B3" 
+    bgColor="#000000"
+    py={4}
+  >
+    BBQ Sauce
+  </Text>
+</Box>
+
       </VStack>
     </Box>
   );

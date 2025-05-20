@@ -132,6 +132,38 @@ const Menu = () => {
               $19
             </Text>
           </Box>
+                    <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+          >
+            <Box>
+              <Image
+                src="/pecan-pie.jpg"
+                alt="Texas Pecan Pie"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+              />
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Texas Pecan Pie
+              </Heading>
+              <Text fontSize="md" mb={2}>
+                A rich, buttery pecan pie made with locally sourced Texas pecans and a hint of caramel drizzle.
+              </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+              $8
+            </Text>
+          </Box>
         </SimpleGrid>
       </Box>
     </Box>
