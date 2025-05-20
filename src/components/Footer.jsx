@@ -4,15 +4,16 @@ function Footer() {
   return (
     <Box
       as="footer"
-      bg="transparent"
-      py="3rem" 
+      bg="black" 
+      py="3rem"
       px="2rem"
       fontFamily="'Bungee', sans-serif"
       color="#F6E0B3"
       mt="auto"
       position="relative"
       zIndex="1"
-      overflow="hidden" 
+      overflow="hidden"
+      border="none" 
     >
       <Box
         position="absolute"
@@ -25,29 +26,29 @@ function Footer() {
         pointerEvents="none"
         userSelect="none"
       >
-      <Image
-        src="/steps-divider.svg"
-        alt="Footer top border"
-        w="100%"
-        h="auto"
-        display="block"
-        style={{
-          transform: 'scale(1.01)', 
-          filter: 'drop-shadow(0 0 0 black)', 
-        }}
-      />
+        <Image
+          src="/steps-divider-1.svg"
+          alt="Footer top border"
+          w="100%"
+          h="auto"
+          display="block"
+          style={{
+            transform: 'scale(1.01)',
+          }}
+        />
       </Box>
 
       <Flex
-        justify="center" 
+        justify="center"
         direction={['column', 'row']}
         alignItems="center"
         gap="1rem"
         position="relative"
         zIndex={3}
-        pt="4rem" 
+        pt="4rem"
         pb="0"
-        bg="#000000"
+        bg="black" 
+        border="none" 
       >
         <Text
           fontSize={['md', 'lg']}
