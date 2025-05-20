@@ -260,22 +260,22 @@ const Navbar = () => {
                 )}
             </Flex>
             </Box>
-            <Box
-  mt={{ base: '-0.1rem', md: '-0.2rem' }}
+<Box
+  mt="-1px"
   w="100%"
-  zIndex="1"
   overflow="hidden"
+  zIndex="1"
   lineHeight="0"
 >
   <Image
     src="/grunge-divider.svg"
     alt="Navbar bottom border"
-    w={{ base: 'calc(100% + 10px)', md: 'calc(100% + 20px)', lg: 'calc(100% + 30px)' }}
-    ml={{ base: '-5px', md: '-10px', lg: '-15px' }}
-    h="auto"
+    width="100%"
+    height="auto"
+    objectFit="cover"
     display="block"
-    position="relative"
-    style={{ margin: 0, padding: 0 }}
+    margin="0"
+    padding="0"
   />
 </Box>
 
