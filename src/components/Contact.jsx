@@ -186,6 +186,21 @@ const Contact = () => {
           </Box>
         </SimpleGrid>
       </Box>
+          <Box
+      mt={10}
+      maxW="600px"
+      mx="auto"
+      borderRadius="xl"
+      overflow="hidden"
+      boxShadow="lg"
+      border="none"
+    >
+      <img
+        src="/boerne-pic.png"
+        alt="Boerne"
+        style={{ width: "100%", height: "auto", display: "block" }}
+      />
+    </Box>
     </Box>
   );
 };
