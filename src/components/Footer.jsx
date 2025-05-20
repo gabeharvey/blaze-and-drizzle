@@ -59,7 +59,7 @@ function Footer() {
           overflow="hidden"
           textOverflow="ellipsis"
         >
-          ©2025 Blaze{' '}
+          ©2025 Blaze &{' '}
           <Box as="span" fontFamily="'Nosifer', cursive" color="#F6E0B3">
             Drizzle
           </Box>{' '}
