@@ -265,7 +265,7 @@ const Navbar = () => {
                <Image
     src="/grunge-divider.svg"
     alt="Navbar bottom border"
-    w="calc(100% + 6px)" 
+    w="calc(100% + 20px)" 
     h="auto"
     display="block"
     position="relative"
