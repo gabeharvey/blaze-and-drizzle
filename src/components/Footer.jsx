@@ -4,7 +4,7 @@ function Footer() {
   return (
     <Box
       as="footer"
-      bg="#000000" 
+      bg="transparent"
       py="3rem" 
       px="2rem"
       fontFamily="'Bungee', sans-serif"
@@ -26,7 +26,7 @@ function Footer() {
         userSelect="none"
       >
       <Image
-        src="/wave-border-2.svg"
+        src="/steps-divider.svg"
         alt="Footer top border"
         w="100%"
         h="auto"
@@ -47,6 +47,7 @@ function Footer() {
         zIndex={3}
         pt="4rem" 
         pb="0"
+        bg="#000000"
       >
         <Text
           fontSize={['md', 'lg']}

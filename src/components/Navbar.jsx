@@ -260,15 +260,14 @@ const Navbar = () => {
                 )}
             </Flex>
             </Box>
-            <Box mt={{ base: '-0.3rem', md: '-1.1rem' }} w="100%" zIndex="1">
+            <Box mt={{ base: '-.1rem', md: '-.2rem' }} w="100%" zIndex="1">
                 <Image
-  src="/wave-border.svg"
-  alt="Navbar bottom border"
-  w="100%"
-  h="auto"
-  display="block"
-/>
-
+                src="/steps-divider.svg"
+                alt="Navbar bottom border"
+                w="100%"
+                h="auto"
+                display="block"
+                />
             </Box>
         </Box>
     );
