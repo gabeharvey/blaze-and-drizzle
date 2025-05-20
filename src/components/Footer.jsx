@@ -1,10 +1,10 @@
-import { Flex, Box, Text, Image } from '@chakra-ui/react';
+import { Box, Flex, Text, Image } from '@chakra-ui/react';
 
 function Footer() {
   return (
     <Box
       as="footer"
-      bg="black" 
+      bg="#000000"
       py="3rem"
       px="2rem"
       fontFamily="'Bungee', sans-serif"
@@ -13,21 +13,22 @@ function Footer() {
       position="relative"
       zIndex="1"
       overflow="hidden"
-      border="none" 
+      border="none"
     >
+      {/* SVG divider flipped back to normal */}
       <Box
         position="absolute"
         top="0"
         left="0"
         w="100%"
         overflow="hidden"
-        style={{ transform: 'scaleY(-1)' }}
         zIndex={2}
         pointerEvents="none"
         userSelect="none"
+        style={{ transform: 'scaleY(-1)' }}
       >
         <Image
-          src="/steps-divider-1.svg"
+          src="/slant-divider-1.svg"
           alt="Footer top border"
           w="100%"
           h="auto"
@@ -38,17 +39,15 @@ function Footer() {
         />
       </Box>
 
+      {/* Footer Content */}
       <Flex
         justify="center"
         direction={['column', 'row']}
         alignItems="center"
-        gap="1rem"
         position="relative"
         zIndex={3}
-        pt="4rem"
+        pt="5rem"
         pb="0"
-        bg="black" 
-        border="none" 
       >
         <Text
           fontSize={['md', 'lg']}
@@ -61,7 +60,7 @@ function Footer() {
           textOverflow="ellipsis"
         >
           ©2025 Blaze{' '}
-          <Box as="span" fontFamily="'Nosifer', cursive">
+          <Box as="span" fontFamily="'Nosifer', cursive" color="#F6E0B3">
             Drizzle
           </Box>{' '}
           LLC
