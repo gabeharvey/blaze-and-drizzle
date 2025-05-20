@@ -49,20 +49,28 @@ const Navbar = () => {
         };
     }, [onClose]);
 
-    const menuVariants = {
-        hidden: { opacity: 0, x: '100%' },
-        visible: {
-            opacity: 1,
-            x: 0,
-            transition: {
-                delayChildren: 0.5,
-                staggerChildren: 0.5,
-                duration: 0.5,
-                ease: 'easeInOut',
-            },
+const menuVariants = {
+    hidden: { x: '100%' },
+    visible: {
+        x: 0,
+        transition: {
+            type: 'spring',
+            stiffness: 50, 
+            damping: 13, 
+            mass: 0.9, 
+            bounce: 0.25, 
+            delayChildren: 0.3,
+            staggerChildren: 0.3,
         },
-        exit: { opacity: 0, x: '100%' },
-    };
+    },
+    exit: {
+        x: '100%',
+        transition: {
+            duration: 0.4,
+            ease: 'easeInOut',
+        },
+    },
+};
 
     return (
         <Box position="sticky" top="0" zIndex="999" bg="transparent">
@@ -209,7 +217,7 @@ const Navbar = () => {
                             borderBottomLeftRadius="30px"
                             color="#F6E0B3"
                             height="100%"
-                            boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
+                            boxShadow="0 8px 15px rgba(35, 35, 35, 0.6)"
                         >
                             <Flex alignItems="center" justifyContent="space-between" mb="1rem">
                                         <Text
