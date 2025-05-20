@@ -21,23 +21,23 @@ function Footer() {
   top="0"
   left="50%"
   width="100vw"
-  marginLeft="-50vw"
   overflow="hidden"
   zIndex={2}
   pointerEvents="none"
   userSelect="none"
-  style={{ transform: 'scaleY(-1) scaleX(-1)' }}
+  style={{ transform: 'translateX(-50%) scaleY(-1) scaleX(-1)' }}
 >
   <Image
     src="/grunge-divider-1.svg"
     alt="Footer top border"
-    width="140vw"  // wider than viewport for overflow on edges
+    width="140vw"
     height="auto"
     display="block"
     transform="scaleY(0.999)"
     transformOrigin="top"
   />
 </Box>
+
 
 
       <Flex
