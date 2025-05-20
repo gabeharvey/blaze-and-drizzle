@@ -212,9 +212,25 @@ const Navbar = () => {
                             boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
                         >
                             <Flex alignItems="center" justifyContent="space-between" mb="1rem">
-                                <Text fontSize="2xl" ml="20px" fontWeight="bold" fontFamily="'Nosifer', cursive">
-                                    Menu
-                                </Text>
+                                        <Text
+                                            fontSize={['lg', 'xl']}
+                                            fontWeight="bold"
+                                            letterSpacing="wider"
+                                            whiteSpace={{ base: 'normal', md: 'nowrap' }}
+                                            overflow="visible"
+                                            mb="2rem"
+                                            mt="3rem"
+                                            >
+                                            Blaze &{' '}
+                                            <Box
+                                                as="span"
+                                                fontFamily="'Nosifer', cursive"
+                                                color="#F6E0B3"
+                                                display="inline"
+                                            >
+                                                Drizzle
+                                            </Box>
+                                            </Text>
                                 <IconButton
                                     icon={<CloseIcon w={6} h={6} />}
                                     color="#F6E0B3"
@@ -227,9 +243,15 @@ const Navbar = () => {
                                     size="lg"
                                     fontWeight="bold"
                                     borderColor="transparent"
+                                    mt="1rem"
                                 />
                             </Flex>
-                            <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
+                                <Flex align="center" my={4} gap={1} wrap="nowrap" justifyContent="space-evenly" color="#F6E0B3" fontWeight="bold" fontFamily="Chakra Petch" fontSize="lg" userSelect="none" width="100%">
+                                {Array(30).fill('◆ ').map((diamond, i) => (
+                                    <Text key={i} mx="2px">{diamond}</Text>
+                                ))}
+                                </Flex>
+                            <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="3rem">
                                 {['ABOUT', 'SOCIAL', 'MENU', 'CONTACT'].map((text, index) => (
                                     <ChakraLink
                                         key={index}
