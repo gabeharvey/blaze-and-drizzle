@@ -269,7 +269,7 @@ const Navbar = () => {
   h="auto"
   display="block"
   position="relative"
-  left="-1px" 
+  left="-3px" 
   style={{ margin: 0, padding: 0, display: 'block' }}
 />
 
