@@ -203,7 +203,7 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bg="black"
+                            className='flame-bg'
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
