@@ -29,7 +29,7 @@ function Footer() {
       >
         <Box position="relative" w="100%">
         <Image
-        src="/slant-divider-1.svg"
+        src="/grunge-divider-1.svg"
         alt="Navbar bottom border"
         w="100%"
         h="auto"

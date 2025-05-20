@@ -263,7 +263,7 @@ const Navbar = () => {
             <Box mt={{ base: '-.1rem', md: '-.2rem' }} w="100%" zIndex="1" overflow="hidden"
                 lineHeight="0">
                                 <Image
-                src="/slant-divider.svg"
+                src="/grunge-divider.svg"
                 alt="Navbar bottom border"
                 w="100%"
                 h="auto"
