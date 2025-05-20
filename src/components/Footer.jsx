@@ -15,7 +15,7 @@ function Footer() {
       overflow="hidden"
       border="none"
     >
-      {/* SVG divider flipped back to normal */}
+
       <Box
         position="absolute"
         top="0"
@@ -25,42 +25,48 @@ function Footer() {
         zIndex={2}
         pointerEvents="none"
         userSelect="none"
-        style={{ transform: 'scaleY(-1)' }}
+        style={{ transform: 'scaleY(-1) scaleX(-1)' }}
       >
+        <Box position="relative" w="100%">
         <Image
-          src="/slant-divider-1.svg"
-          alt="Footer top border"
-          w="100%"
-          h="auto"
-          display="block"
-          style={{
-            transform: 'scale(1.01)',
-          }}
-        />
+        src="/slant-divider-1.svg"
+        alt="Navbar bottom border"
+        w="100%"
+        h="auto"
+        transform="scaleY(.999)" 
+        transformOrigin="top"
+        display="block"
+      />
+        <Box position="absolute" top="0" left="0" w="100%" h="1px" bg="#000000" zIndex="2" />
+        <Box position="absolute" bottom="0" left="0" w="100%" h="1px" bg="#F6E0B3" zIndex="2" />
+      </Box>
       </Box>
 
-      {/* Footer Content */}
       <Flex
         justify="center"
-        direction={['column', 'row']}
         alignItems="center"
         position="relative"
         zIndex={3}
         pt="5rem"
         pb="0"
+        px="1rem"
+        textAlign="center"
+        flexWrap="wrap"
       >
         <Text
           fontSize={['md', 'lg']}
           fontWeight="bold"
           letterSpacing="wider"
-          textAlign="center"
-          maxW="100%"
-          whiteSpace="nowrap"
-          overflow="hidden"
-          textOverflow="ellipsis"
+          whiteSpace={{ base: 'normal', md: 'nowrap' }}
+          overflow="visible"
         >
           ©2025 Blaze &{' '}
-          <Box as="span" fontFamily="'Nosifer', cursive" color="#F6E0B3">
+          <Box
+            as="span"
+            fontFamily="'Nosifer', cursive"
+            color="#F6E0B3"
+            display="inline"
+          >
             Drizzle
           </Box>{' '}
           LLC
