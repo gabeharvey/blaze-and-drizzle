@@ -268,9 +268,11 @@ const Navbar = () => {
   w="100%"
   h="auto"
   display="block"
-  m="0"
-  p="0"
+  position="relative"
+  left="-1px" 
+  style={{ margin: 0, padding: 0, display: 'block' }}
 />
+
 
             </Box>
         </Box>
