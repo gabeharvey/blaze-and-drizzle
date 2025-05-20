@@ -240,7 +240,7 @@ const menuVariants = {
                                             </Box>
                                             </Text>
                                 <IconButton
-                                    icon={<CloseIcon w={6} h={6} />}
+                                    icon={<CloseIcon w={5} h={5} />}
                                     color="#F6E0B3"
                                     aria-label="Close Menu"
                                     variant="outline"
@@ -248,7 +248,7 @@ const menuVariants = {
                                     bgColor="transparent"
                                     _focus={{ boxShadow: 'none' }}
                                     _hover={{ bg: 'transparent' }}
-                                    size="lg"
+                                    size="md"
                                     fontWeight="bold"
                                     borderColor="transparent"
                                     mt="1rem"
