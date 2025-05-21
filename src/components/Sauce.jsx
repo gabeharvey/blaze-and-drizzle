@@ -28,10 +28,11 @@ const Sauce = () => {
           mb={10}
           fontFamily="'Nosifer', cursive"
         >
-          Sauce Shop
+          Secret Drizzle Shop
         </Heading>
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+          {/* Sauce boxes here */}
           <Box
             display="flex"
             flexDirection="column"
@@ -61,11 +62,10 @@ const Sauce = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $5
+              $8
             </Text>
           </Box>
 
-          {/* Blazin Hot Drizzle */}
           <Box
             display="flex"
             flexDirection="column"
@@ -95,13 +95,71 @@ const Sauce = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $6
+              $8
             </Text>
           </Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+            >
+            <Box>
+                <Image
+                src="/secret-drizzle.jpg" 
+                alt="Secret Drizzle Sauce"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+                />
+                <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Secret Drizzle Sauce
+                </Heading>
+                <Text fontSize="md" mb={2}>
+                A tantalizing blend of smoky, sweet, and tangy flavors that takes your BBQ to the next level.
+                </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+                $8
+            </Text>
+            </Box>
+
         </SimpleGrid>
+        <Box
+          mt={10}
+          py={4}
+          px={6}
+          bg="#000000"
+          borderRadius="lg"
+          border="1px solid #F6E0B3"
+          boxShadow="0 8px 15px rgba(246, 224, 179, 0.5)"
+          textAlign="center"
+          maxW={{ base: "100%", md: "50%", lg: "33%" }} 
+          mx="auto" 
+          minH="100%" 
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <Text
+            fontFamily="'Nosifer', cursive"
+            fontSize={{ base: "xl", md: "2xl" }}
+            color="#F6E0B3"
+          >
+            Drippin' Flavor, Pourin' Love
+          </Text>
+        </Box>
       </Box>
     </Box>
   );
 };
 
 export default Sauce;
+
