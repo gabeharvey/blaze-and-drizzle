@@ -6,11 +6,15 @@ import {
   Image,
   SimpleGrid,
 } from "@chakra-ui/react";
+import { useEffect } from 'react';
 
 const Sauce = () => {
   const textColor = "#000000";
   const bgColor = "#F6E0B3";
 
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Box
       minH="100vh"
@@ -159,4 +163,3 @@ const Sauce = () => {
 };
 
 export default Sauce;
-
