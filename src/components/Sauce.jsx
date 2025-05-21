@@ -57,7 +57,7 @@ const Sauce = () => {
                 Signature Drizzle
               </Heading>
               <Text fontSize="md" mb={2}>
-                A sweet and mild blazy sauce with hints of molasses and spices, perfect for all your smoked meats.
+                A sweet and mild sauce with hints of molasses and spices, perfect for all your smoked meats.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
