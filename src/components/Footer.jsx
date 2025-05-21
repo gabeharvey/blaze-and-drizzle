@@ -44,7 +44,7 @@ function Footer() {
         alignItems="center"
         position="relative"
         zIndex={3}
-        pt="3rem" // add padding top here below flipped SVG
+        pt="3rem" 
         pb="0"
         px="2rem"
         textAlign="center"
