@@ -116,7 +116,7 @@ const About = () => {
         >
           <Link to="/sauce">
             <img
-              src="/bbq-sauce-2.png"
+              src="/bbq-sauce-3.png"
               alt="Boerne"
               style={{ width: "100%", height: "auto", display: "block" }}
             />
