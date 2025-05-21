@@ -23,8 +23,9 @@ function Footer() {
         height="auto"
         pointerEvents="none"
         userSelect="none"
-        style={{ transform: 'scaleY(-1)' }} // keep flip here
-        mb="-3rem" // add negative margin bottom to pull svg down
+        style={{ transform: 'scaleY(-1)' }} 
+        mb="-3rem" 
+        lineHeight={0}
       >
         <Image
           src="/grunge-divider-1.svg"
@@ -32,7 +33,7 @@ function Footer() {
           width="120vw"
           maxWidth="none"
           marginLeft="-10vw"
-          height="auto"
+          height="100px"
           objectFit="cover"
           display="block"
         />
