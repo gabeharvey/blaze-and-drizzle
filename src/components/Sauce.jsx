@@ -5,8 +5,10 @@ import {
   Text,
   Image,
   SimpleGrid,
+  Button,
 } from "@chakra-ui/react";
 import { useEffect } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Sauce = () => {
   const textColor = "#000000";
@@ -156,6 +158,28 @@ const Sauce = () => {
           >
             Drippin' Flavor, Pourin' Love
           </Text>
+        </Box>
+        <Box textAlign="center" mt={8}>
+        <Button
+            as={RouterLink}
+            to="/"
+            sx={{
+            background: "linear-gradient(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)",
+            backgroundSize: "400% 400%",
+            animation: "flameBackground 12s ease-in-out infinite",
+            transition: "background 0.3s ease, color 0.3s ease",
+            }}
+            color="#F6E0B3"
+            fontFamily="Bungee, sans-serif"
+            _hover={{ bg: "#000000" }}
+            px={8}
+            py={6}
+            fontSize="lg"
+            borderRadius="lg"
+            boxShadow="0 6px 12px rgba(0,0,0,0.4)"
+        >
+            Home
+        </Button>
         </Box>
       </Box>
     </Box>
