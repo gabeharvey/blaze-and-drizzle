@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import MainLayout from './components/MainLayout'; 
+import Sauce from './components/Sauce';
 
 const theme = extendTheme({
   styles: {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     element: <App />, 
     children: [
       { index: true, element: <MainLayout /> }, 
+      { path: 'sauce', element: <Sauce /> },
     ],
   },
 ]);
