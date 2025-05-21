@@ -13,7 +13,6 @@ function Footer() {
       zIndex={1}
       overflow="hidden"
       border="none"
-      // removed py here
     >
       <Box
         position="relative"

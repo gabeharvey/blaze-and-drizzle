@@ -101,7 +101,6 @@ const Contact = () => {
         </Heading>
 
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-          {/* Contact Form */}
           <Box as="form" ref={form} onSubmit={sendEmail}>
             <FormControl mb={4}>
               <FormLabel fontFamily="Bungee, sans-serif">Name</FormLabel>
@@ -151,8 +150,6 @@ const Contact = () => {
               </Button>
             </Box>
           </Box>
-
-          {/* Contact Info */}
           <Box
             bg="#000000"
             color="#F6E0B3"

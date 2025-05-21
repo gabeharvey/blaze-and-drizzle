@@ -30,9 +30,7 @@ const Sauce = () => {
         >
           Secret Drizzle Shop
         </Heading>
-
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {/* Sauce boxes here */}
           <Box
             display="flex"
             flexDirection="column"
@@ -130,7 +128,6 @@ const Sauce = () => {
                 $8
             </Text>
             </Box>
-
         </SimpleGrid>
         <Box
           mt={10}

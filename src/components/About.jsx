@@ -12,17 +12,15 @@ const About = () => {
       minH="100vh"
       textAlign="center"
     >
-      {/* Banner */}
-<Flex
-  direction="column"
-  align="center"
-  justify="center"
-  mb={8}
-  fontFamily="'Nosifer', cursive"
-  fontWeight="bold"
-  color="#000000"
->
-  {/* Text Row */}
+    <Flex
+      direction="column"
+      align="center"
+      justify="center"
+      mb={8}
+      fontFamily="'Nosifer', cursive"
+      fontWeight="bold"
+      color="#000000"
+    >
     <Flex
       align="center"
       justify="center"

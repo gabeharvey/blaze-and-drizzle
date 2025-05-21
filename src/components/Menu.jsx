@@ -29,9 +29,7 @@ const Menu = () => {
         >
           Menu
         </Heading>
-
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
-          {/* Ribz */}
           <Box
             display="flex"
             flexDirection="column"
@@ -98,8 +96,6 @@ const Menu = () => {
               $19
             </Text>
           </Box>
-
-          {/* Beef Ribs */}
           <Box
             display="flex"
             flexDirection="column"
