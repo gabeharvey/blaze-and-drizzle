@@ -37,6 +37,7 @@ function Footer() {
           display="block"
         />
       </Box>
+
       <Flex
         justify="center"
         alignItems="center"
