@@ -13,6 +13,7 @@ function Footer() {
       zIndex={1}
       overflow="hidden"
       border="none"
+      // removed py here
     >
       <Box
         position="relative"
@@ -43,7 +44,7 @@ function Footer() {
         alignItems="center"
         position="relative"
         zIndex={3}
-        pt="3rem" 
+        pt="3rem" // add padding top here below flipped SVG
         pb="0"
         px="2rem"
         textAlign="center"
