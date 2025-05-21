@@ -14,31 +14,33 @@ function Footer() {
       overflow="hidden"
       border="none"
     >
-      <Box
-        position="relative"
-        width="100vw"
-        overflow="hidden"
-        zIndex={2}
-        height="auto"
-        pointerEvents="none"
-        userSelect="none"
-        style={{ transform: 'scaleY(-1)' }} 
-        mb="-3rem" 
-        lineHeight={0}
-      >
-        <Image
-          src="/grunge-divider-1.svg"
-          alt="Footer top border"
-          width="120vw"
-          maxWidth="none"
-          marginLeft="-10vw"
-          height="100px"
-          objectFit="cover"
-          display="block"
-        />
-      </Box>
-
-      <Flex
+    <Box
+      position="relative"
+      width="100vw"
+      overflow="hidden"
+      zIndex={2}
+      height="auto"
+      pointerEvents="none"
+      userSelect="none"
+      mb="-3rem"
+      lineHeight={0}
+      transform="rotateX(180deg)" 
+    >
+      <Image
+        src="/grunge-divider-1.svg"
+        alt="Footer top border"
+        width="120vw"
+        maxWidth="none"
+        marginLeft="-10vw"
+        height="100px"
+        objectFit="cover"
+        display="block"
+        m="0"
+        p="0"
+        draggable="false"
+      />
+    </Box>
+     <Flex
         justify="center"
         alignItems="center"
         position="relative"
