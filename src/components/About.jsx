@@ -1,5 +1,4 @@
 import { Box, Heading, Text, VStack, Image, Flex } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 import BBQImage from "/ribz-drizzle.png";
 import TexasFlagGIF from "/texas-flag.gif"; 
 
@@ -96,39 +95,11 @@ const About = () => {
         </Text>
 
         <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif" mt={4}>
-          From our legendary brizket and fall-off-the-bone ribz to our signature sauces and big Texas sides,
+          From our legendary brizket and fall-off-the-bone ribz to our signature sauces,
           everything we serve is crafted with passion, fire, and flavor.
           <Box as="span" fontWeight="bold"> Blaze & </Box>
           <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
-        <Box
-          mt={10}
-          maxW="600px"
-          mx="auto"
-          borderRadius="xl"
-          overflow="hidden"
-          boxShadow="lg"
-          border="20px solid black"
-          bg="white"
-          textAlign="center"
-        >
-          <Link to="/sauce">
-            <img
-              src="/bbq-sauce-3.png"
-              alt="Boerne"
-              style={{ width: "100%", height: "auto", display: "block" }}
-            />
-          </Link>
-          <Text
-            fontFamily="'Nosifer', cursive"
-            fontSize={{ base: "2xl", md: "3xl" }}
-            color="#F6E0B3"
-            bgColor="#000000"
-            py={4}
-          >
-            BBQ Sauce
-          </Text>
-        </Box>
       </VStack>
     </Box>
   );

@@ -5,6 +5,7 @@ import {
   Image,
   SimpleGrid,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   const textColor = "#000000";
@@ -161,6 +162,34 @@ const Menu = () => {
             </Text>
           </Box>
         </SimpleGrid>
+                <Box
+          mt={10}
+          maxW="600px"
+          mx="auto"
+          borderRadius="xl"
+          overflow="hidden"
+          boxShadow="lg"
+          border="20px solid black"
+          bg="white"
+          textAlign="center"
+        >
+          <Link to="/sauce">
+            <img
+              src="/bbq-sauce-3.png"
+              alt="Boerne"
+              style={{ width: "100%", height: "auto", display: "block" }}
+            />
+          </Link>
+          <Text
+            fontFamily="'Nosifer', cursive"
+            fontSize={{ base: "2xl", md: "3xl" }}
+            color="#F6E0B3"
+            bgColor="#000000"
+            py={4}
+          >
+            BBQ Sauce
+          </Text>
+        </Box>
       </Box>
     </Box>
   );
