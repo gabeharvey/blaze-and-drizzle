@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
+import { keyframes } from '@emotion/react';
 
 const Contact = () => {
   const textColor = "#000000";
@@ -20,6 +21,11 @@ const Contact = () => {
   const form = useRef();
   const toast = useToast();
 
+const flameAnimation = keyframes`
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+`;
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -90,20 +96,31 @@ const Contact = () => {
       fontFamily="Bungee, sans-serif"
     >
       <Box bg={bgColor} borderRadius="xl" p={8} maxW="6xl" mx="auto">
-        <Heading
-          as="h2"
-          size="lg"
-          textAlign="center"
-          mb={10}
-          fontFamily="'Nosifer', cursive"
-        >
-          Contact
-        </Heading>
-
+      <Heading
+        as="h2"
+        size="lg"
+        textAlign="center"
+        mb={10}
+        fontFamily="'Nosifer', cursive"
+        bgGradient="linear(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)"
+        bgSize="400% 400%"
+        animation={`${flameAnimation} 12s ease-in-out infinite`}
+        bgClip="text"
+      >
+        Contact
+      </Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Box as="form" ref={form} onSubmit={sendEmail}>
             <FormControl mb={4}>
-              <FormLabel fontFamily="Bungee, sans-serif">Name</FormLabel>
+              <FormLabel
+                fontFamily="Bungee, sans-serif"
+                bgGradient="linear(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)"
+                bgSize="400% 400%"
+                animation={`${flameAnimation} 12s ease-in-out infinite`}
+                bgClip="text"
+              >
+                Name
+              </FormLabel>
               <Input
                 name="name"
                 placeholder="Your Name"
@@ -114,7 +131,15 @@ const Contact = () => {
             </FormControl>
 
             <FormControl mb={4}>
-              <FormLabel fontFamily="Bungee, sans-serif">Email</FormLabel>
+              <FormLabel
+                fontFamily="Bungee, sans-serif"
+                bgGradient="linear(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)"
+                bgSize="400% 400%"
+                animation={`${flameAnimation} 12s ease-in-out infinite`}
+                bgClip="text"
+              >
+                Email
+              </FormLabel>
               <Input
                 type="email"
                 name="email"
@@ -126,7 +151,15 @@ const Contact = () => {
             </FormControl>
 
             <FormControl mb={4}>
-              <FormLabel fontFamily="Bungee, sans-serif">Message</FormLabel>
+              <FormLabel
+                fontFamily="Bungee, sans-serif"
+                bgGradient="linear(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)"
+                bgSize="400% 400%"
+                animation={`${flameAnimation} 12s ease-in-out infinite`}
+                bgClip="text"
+              >
+                Message
+              </FormLabel>
               <Textarea
                 name="message"
                 placeholder="Write your message..."
@@ -159,7 +192,7 @@ const Contact = () => {
             </Box>
           </Box>
           <Box
-            bg="#000000"
+            className="flame-bg"
             color="#F6E0B3"
             borderRadius="lg"
             p={6}

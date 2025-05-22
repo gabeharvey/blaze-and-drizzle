@@ -100,6 +100,9 @@ const About = () => {
           <Box as="span" fontWeight="bold"> Blaze & </Box>
           <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
+        <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">
+          We love to support local small businesses and source practically everything from the Boerne area.
+        </Text>
       </VStack>
     </Box>
   );
