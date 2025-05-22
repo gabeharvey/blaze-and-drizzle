@@ -162,6 +162,38 @@ const Menu = () => {
               $19
             </Text>
           </Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+          >
+            <Box>
+              <Image
+                src="/topo-chico.png" 
+                alt="Ice Cold Topo Chico"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+              />
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Ice Cold Topo Chico
+              </Heading>
+              <Text fontSize="md" mb={2}>
+                Refreshing sparkling mineral water served ice cold, perfect to quench your thirst.
+              </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+              $3
+            </Text>
+          </Box>
         </SimpleGrid>
                 <Box
           mt={10}
