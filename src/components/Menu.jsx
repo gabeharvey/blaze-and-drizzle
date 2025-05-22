@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Box,
   Heading,
@@ -56,7 +57,7 @@ const Menu = () => {
                 Legendary Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and glazed with a tangy molasses BBQ drizzle.
+                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and glazed with a tangy molasses signature BBQ drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -90,7 +91,7 @@ const Menu = () => {
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
-                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and drizzled with a bold chipotle glaze.
+                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and drizzled with a blazin' hot sauce.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -122,7 +123,7 @@ const Menu = () => {
                 Hill Country Blaze-Drizzled Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Meaty, slow-cooked beef ribs kissed by smoke and fire, then drizzled in our signature spicy-sweet blaze sauce.
+                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with signature sauce.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
