@@ -14,6 +14,7 @@ import { motion } from 'framer-motion';
 import { FaFire } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 import '../App.css';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -200,6 +201,40 @@ const menuVariants = {
                             {text}
                         </ChakraLink>
                     ))}
+                      <ChakraLink
+                        as={RouterLink}
+                        to="/sauce"
+                        fontSize="md"
+                        fontWeight="extrabold"
+                        fontFamily="'Bungee', sans-serif"
+                        color="#F6E0B3"
+                        position="relative"
+                        _hover={{
+                        transform: 'scale(1.05)',
+                        transition: 'transform 0.2s',
+                        color: '#F6E0B3',
+                        }}
+                        style={{ cursor: 'pointer' }}
+                    >
+                        Drizzle Shop
+                    </ChakraLink>
+                    <ChakraLink
+                        as={RouterLink}
+                        to="/"
+                        fontSize="md"
+                        fontWeight="extrabold"
+                        fontFamily="'Bungee', sans-serif"
+                        color="#F6E0B3"
+                        position="relative"
+                        _hover={{
+                        transform: 'scale(1.05)',
+                        transition: 'transform 0.2s',
+                        color: '#F6E0B3',
+                        }}
+                        style={{ cursor: 'pointer' }}
+                    >
+                        Home
+                    </ChakraLink>
                 </Flex>
                 {isOpen && (
                     <motion.div
@@ -286,6 +321,45 @@ const menuVariants = {
                                 ))}
                             </Flex>
                             <Flex align="center" my={4} gap={1} wrap="nowrap" justifyContent="space-evenly" color="#F6E0B3" fontWeight="bold" fontFamily="Chakra Petch" fontSize="lg" userSelect="none" width="100%" mt="3rem">
+                                {Array(30).fill('◆').map((diamond, i) => (
+                                    <Text key={i} mx="2px">{diamond}</Text>
+                                ))}
+                                </Flex>
+                           <Flex flexDirection="column" alignItems="flex-start" gap="1rem" mt="3rem">
+                            <ChakraLink
+                                as={RouterLink}
+                                to="/sauce"
+                                fontSize="lg"
+                                fontWeight="bold"
+                                fontFamily="'Bungee', sans-serif"
+                                color="#F6E0B3"
+                                _hover={{
+                                transform: 'scale(1.05)',
+                                transition: 'transform 0.2s',
+                                color: '#F6E0B3',
+                                }}
+                                style={{ cursor: 'pointer' }}
+                            >
+                                Drizzle Shop
+                            </ChakraLink>
+                            <ChakraLink
+                                as={RouterLink}
+                                to="/"
+                                fontSize="lg"
+                                fontWeight="bold"
+                                fontFamily="'Bungee', sans-serif"
+                                color="#F6E0B3"
+                                _hover={{
+                                transform: 'scale(1.05)',
+                                transition: 'transform 0.2s',
+                                color: '#F6E0B3',
+                                }}
+                                style={{ cursor: 'pointer' }}
+                            >
+                                Home
+                            </ChakraLink>
+                            </Flex>
+                                                        <Flex align="center" my={4} gap={1} wrap="nowrap" justifyContent="space-evenly" color="#F6E0B3" fontWeight="bold" fontFamily="Chakra Petch" fontSize="lg" userSelect="none" width="100%" mt="3rem">
                                 {Array(30).fill('◆').map((diamond, i) => (
                                     <Text key={i} mx="2px">{diamond}</Text>
                                 ))}
