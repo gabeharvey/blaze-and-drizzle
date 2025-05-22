@@ -134,6 +134,38 @@ const Sauce = () => {
                 $8
             </Text>
             </Box>
+            <Box
+                display="flex"
+                flexDirection="column"
+                justifyContent="space-between"
+                bg="#000000"
+                color="#FFEDD5"
+                borderRadius="lg"
+                p={4}
+                minH="100%"
+                >
+                <Box>
+                    <Image
+                    src="/cheetoh-drizzle.png" 
+                    alt="Spicy Hot Cheetoh Drizzle"
+                    borderRadius="lg"
+                    mb={4}
+                    h="250px"
+                    w="100%"
+                    objectFit="cover"
+                    />
+                    <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FF4D00">
+                    Spicy Hot Cheetoh Drizzle
+                    </Heading>
+                    <Text fontSize="md" mb={2}>
+                    A bold, fiery drizzle made with real Flamin’ Hot Cheetos, crushed red pepper, and sweet heat. We dare you to try it!
+                    </Text>
+                </Box>
+                <Text fontWeight="bold" fontSize="xl" color="orange.300">
+                    $8
+                </Text>
+                </Box>
+
         </SimpleGrid>
         <Box
           mt={10}
