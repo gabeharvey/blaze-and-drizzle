@@ -106,7 +106,7 @@ const Sauce = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
-            bg="#1a0d00"
+            bg="#000000"
             color="#FFEBCD"
             borderRadius="lg"
             p={4}
