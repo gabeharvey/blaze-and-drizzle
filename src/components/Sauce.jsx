@@ -106,6 +106,37 @@ const Sauce = () => {
             display="flex"
             flexDirection="column"
             justifyContent="space-between"
+            bg="#1a0d00"
+            color="#FFEBCD"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            >
+            <Box>
+                <Image
+                src="/spicy-hawaiian-drizzle.png" 
+                alt="Spicy Hawaiian Drizzle"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+                />
+                <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FFA500">
+                Spicy Hawaiian Drizzle
+                </Heading>
+                <Text fontSize="md" mb={2}>
+                A tropical fusion of pineapple, habanero, and brown sugar—this sweet-heat drizzle brings island vibes with a serious kick.
+                </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+                $8
+            </Text>
+            </Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
             bg="#000000"
             color="#F6E0B3"
             borderRadius="lg"
