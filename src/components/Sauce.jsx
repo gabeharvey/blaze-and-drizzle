@@ -58,7 +58,7 @@ const Sauce = () => {
                 w="100%"
                 objectFit="cover"
               />
-              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#6F1D1B">
                 Signature Drizzle
               </Heading>
               <Text fontSize="md" mb={2}>
@@ -91,7 +91,7 @@ const Sauce = () => {
                 w="100%"
                 objectFit="cover"
               />
-              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FF3300">
                 Blazin' Hot Drizzle
               </Heading>
               <Text fontSize="md" mb={2}>
@@ -107,7 +107,7 @@ const Sauce = () => {
             flexDirection="column"
             justifyContent="space-between"
             bg="#000000"
-            color="#FFEBCD"
+            color="#F6E0B3"
             borderRadius="lg"
             p={4}
             minH="100%"
@@ -154,7 +154,7 @@ const Sauce = () => {
                 w="100%"
                 objectFit="cover"
                 />
-                <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FFFFFF">
                 Secret Drizzle Sauce
                 </Heading>
                 <Text fontSize="md" mb={2}>
@@ -170,7 +170,7 @@ const Sauce = () => {
                 flexDirection="column"
                 justifyContent="space-between"
                 bg="#000000"
-                color="#FFEDD5"
+                color="#F6E0B3"
                 borderRadius="lg"
                 p={4}
                 minH="100%"
