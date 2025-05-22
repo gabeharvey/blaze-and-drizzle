@@ -147,7 +147,7 @@ const Sauce = () => {
             <Box>
                 <Image
                 src="/secret-drizzle.jpg" 
-                alt="Secret Drizzle Sauce"
+                alt="Secret Drizzle"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -155,7 +155,7 @@ const Sauce = () => {
                 objectFit="cover"
                 />
                 <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FFFFFF">
-                Secret Drizzle Sauce
+                Secret Drizzle
                 </Heading>
                 <Text fontSize="md" mb={2}>
                 A tantalizing blend of smoky, sweet, and tangy flavors that takes your BBQ to the next level.
