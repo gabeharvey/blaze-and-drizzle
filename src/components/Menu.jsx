@@ -184,7 +184,7 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Ice Cold Topo Chico
+                Ice Cold Topo-Chico
               </Heading>
               <Text fontSize="md" mb={2}>
                 Refreshing sparkling mineral water served ice cold, perfect to quench your thirst.
