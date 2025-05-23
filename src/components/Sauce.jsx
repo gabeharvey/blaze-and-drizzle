@@ -186,7 +186,7 @@ const Sauce = () => {
                     objectFit="cover"
                     />
                     <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive" color="#FF4D00">
-                    Spicy Hot Cheetoh Drizzle
+                    Spicy Hot Cheeto Drizzle
                     </Heading>
                     <Text fontSize="md" mb={2}>
                     A bold, fiery drizzle made with real Flamin’ Hot Cheetos, crushed red pepper, and sweet heat. We dare you to try it!
