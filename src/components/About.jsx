@@ -103,6 +103,25 @@ const About = () => {
         <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">
           We love to support local small businesses and source practically everything from the Boerne area.
         </Text>
+              <Flex justify="center" mt={12}>
+        <Box
+          bg="#FFFFFF"
+          borderRadius="md"
+          overflow="hidden"
+          boxShadow="md"
+          maxW="600px"
+          w="full"
+          border="20px solid black"
+        >
+          <Image
+            src="/jack-burton-1.png"
+            alt="First"
+            objectFit="cover"
+            width="100%"
+            height="auto"
+          />
+        </Box>
+      </Flex>
       </VStack>
     </Box>
   );
