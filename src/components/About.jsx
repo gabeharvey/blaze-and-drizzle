@@ -114,7 +114,7 @@ const About = () => {
           border="20px solid black"
         >
           <Image
-            src="/jack-burton-1.png"
+            src="/jack-burton-2.png"
             alt="First"
             objectFit="cover"
             width="100%"
