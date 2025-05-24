@@ -126,7 +126,7 @@ const Sauce = () => {
                 Spicy Hawaiian Drizzle
                 </Heading>
                 <Text fontSize="md" mb={2}>
-                A tropical fusion of pineapple, habanero, and brown sugar—this sweet-heat drizzle brings island vibes with a serious kick.
+                A tropical fusion of pineapple, habanero, and brown sugar, this sweet-heat drizzle brings island vibes with a serious kick.
                 </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
