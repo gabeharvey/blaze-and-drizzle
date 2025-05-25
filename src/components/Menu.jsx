@@ -120,7 +120,7 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Hill Country Blaze-Drizzled Beef Ribz
+                Hill Country Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
                 Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with signature sauce.
@@ -152,7 +152,7 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Texas Pecan Pie
+                Mary's Texas Pecan Pie
               </Heading>
               <Text fontSize="md" mb={2}>
                 A rich, buttery pecan pie made with locally sourced Texas pecans and a hint of caramel drizzle.
