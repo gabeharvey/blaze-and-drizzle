@@ -114,7 +114,7 @@ const Sauce = () => {
             >
             <Box>
                 <Image
-                src="/spicy-hawaiian-drizzle.png" 
+                src="/spicy-hawaiian-drizzle-1.png" 
                 alt="Spicy Hawaiian Drizzle"
                 borderRadius="lg"
                 mb={4}
