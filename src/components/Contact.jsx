@@ -210,7 +210,7 @@ const flameAnimation = keyframes`
               Contact Info
             </Heading>
             <Text fontSize="md" mb={2}>
-              Have questions about the drizzle? Reach out and we’ll fire up a reply!
+              Have questions about the drizzle? Reach out and we will fire up a reply!
             </Text>
             <Text fontSize="md" mb={1}>
               ✉️ Email: harvey7@gmail.com
