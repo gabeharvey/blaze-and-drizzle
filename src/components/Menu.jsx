@@ -61,7 +61,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $19
+              $16 lb
             </Text>
           </Box>
 
@@ -95,7 +95,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $19
+              $22 lb
             </Text>
           </Box>
           <Box
@@ -127,7 +127,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $19
+              $18 lb
             </Text>
           </Box>
                     <Box
@@ -159,7 +159,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $19
+              $5 slice
             </Text>
           </Box>
                               <Box
@@ -191,7 +191,7 @@ const Menu = () => {
                 </Text>
               </Box>
               <Text fontWeight="bold" fontSize="xl" color="orange.300">
-                $14
+                $10 half doz
               </Text>
             </Box>
           <Box
@@ -223,7 +223,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $3
+              $3 bottle
             </Text>
           </Box>
         </SimpleGrid>

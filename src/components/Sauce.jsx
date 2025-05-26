@@ -66,7 +66,7 @@ const Sauce = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $8
+              $8 Bottle
             </Text>
           </Box>
 
@@ -99,7 +99,7 @@ const Sauce = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $8
+              $8 Bottle
             </Text>
           </Box>
           <Box
@@ -130,7 +130,7 @@ const Sauce = () => {
                 </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-                $8
+                $8 Bottle
             </Text>
             </Box>
           <Box
@@ -162,7 +162,7 @@ const Sauce = () => {
                 </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-                $8
+                $8 Bottle
             </Text>
             </Box>
             <Box
@@ -193,7 +193,7 @@ const Sauce = () => {
                     </Text>
                 </Box>
                 <Text fontWeight="bold" fontSize="xl" color="orange.300">
-                    $8
+                    $8 Bottle
                 </Text>
                 </Box>
 
