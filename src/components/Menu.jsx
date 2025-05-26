@@ -127,7 +127,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $18 lb
+              $16 lb
             </Text>
           </Box>
                     <Box
