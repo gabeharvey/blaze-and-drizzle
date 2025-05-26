@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import {
   Box,
   Heading,
@@ -57,7 +56,7 @@ const Menu = () => {
                 Legendary Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and glazed with a tangy molasses signature BBQ drizzle.
+                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and covered with your favorite drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -91,7 +90,7 @@ const Menu = () => {
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
-                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and drizzled with a blazin' hot sauce.
+                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and smothered with your choice of drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -123,7 +122,7 @@ const Menu = () => {
                 Hill Country Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with signature sauce.
+                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with your favorite signature sauce.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -187,7 +186,7 @@ const Menu = () => {
                   Texas Chocolate Drizzle Cookies
                 </Heading>
                 <Text fontSize="md" mb={2}>
-                  Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous **drizzle of warm, rich chocolate**. Soft, chewy, and full of Texas flavor in every bite.
+                  Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Texas flavor in every bite.
                 </Text>
               </Box>
               <Text fontWeight="bold" fontSize="xl" color="orange.300">
