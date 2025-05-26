@@ -234,7 +234,7 @@ const flameAnimation = keyframes`
       border="none"
     >
       <img
-        src="/boerne-pic.png"
+        src="/boerne-pic.jpg"
         alt="Boerne"
         style={{ width: "100%", height: "auto", display: "block" }}
       />
