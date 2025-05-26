@@ -61,7 +61,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $16 lb
+              $13 1/2 lb
             </Text>
           </Box>
 
@@ -95,7 +95,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $22 lb
+              $19 1/2 lb
             </Text>
           </Box>
           <Box
@@ -127,7 +127,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $16 lb
+              $16 1/2 lb
             </Text>
           </Box>
                     <Box
