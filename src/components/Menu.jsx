@@ -31,6 +31,38 @@ const Menu = () => {
           Menu
         </Heading>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
+                    <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+          >
+            <Box>
+              <Image
+                src="/beef-ribs.jpg"
+                alt="Beef Ribs"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+              />
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Hill Country Beef Ribz
+              </Heading>
+              <Text fontSize="md" mb={2}>
+                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with your favorite signature sauce.
+              </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+              $16 1/2 lb
+            </Text>
+          </Box>
           <Box
             display="flex"
             flexDirection="column"
@@ -44,8 +76,8 @@ const Menu = () => {
           >
             <Box>
               <Image
-                src="/ribz-drizzle-2.jpg"
-                alt="Pork Ribs"
+                src="/wagyu-ribz.png" 
+                alt="Wagyu Beef Ribs"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -53,18 +85,16 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Legendary Ribz
+                Texas Wagyu Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and covered with your favorite drizzle.
+                Indulgently tender, marbled to perfection—our Wagyu beef ribs are slow-smoked over post oak and will melt in your mouth. 
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $13 1/2 lb
+              $39 1/2 lb
             </Text>
           </Box>
-
-          {/* Brizket */}
           <Box
             display="flex"
             flexDirection="column"
@@ -110,8 +140,8 @@ const Menu = () => {
           >
             <Box>
               <Image
-                src="/beef-ribs.jpg"
-                alt="Beef Ribs"
+                src="/ribz-drizzle-2.jpg"
+                alt="Pork Ribs"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -119,14 +149,14 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Hill Country Beef Ribz
+                Legendary Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with your favorite signature sauce.
+                Slow-smoked, flame-kissed pork ribs rubbed in our fiery blaze blend and covered with your favorite drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $16 1/2 lb
+              $13 1/2 lb
             </Text>
           </Box>
                     <Box
@@ -183,7 +213,7 @@ const Menu = () => {
                   objectFit="cover"
                 />
                 <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                  Texas Chocolate Drizzle Cookies
+                  Texas Chocolate Chip Cookies
                 </Heading>
                 <Text fontSize="md" mb={2}>
                   Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Texas flavor in every bite.
