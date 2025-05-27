@@ -85,7 +85,7 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Texas Wagyu Beef Ribz
+                Boerne Black Label Wagyu Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
                 Indulgently tender, marbled to perfection—our Wagyu beef ribs are slow-smoked over post oak and will melt in your mouth. 
@@ -205,7 +205,7 @@ const Menu = () => {
               <Box>
                 <Image
                   src="/chocolate-chip-cookies.png" 
-                  alt="Texas Chocolate Chip Cookies"
+                  alt="Boerne Gold Cookies"
                   borderRadius="lg"
                   mb={4}
                   h="250px"
@@ -213,10 +213,10 @@ const Menu = () => {
                   objectFit="cover"
                 />
                 <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                  Texas Chocolate Chip Cookies
+                  Boerne Gold Cookies
                 </Heading>
                 <Text fontSize="md" mb={2}>
-                  Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Texas flavor in every bite.
+                  Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Boerne flavor in every bite.
                 </Text>
               </Box>
               <Text fontWeight="bold" fontSize="xl" color="orange.300">
