@@ -151,7 +151,7 @@ const Menu = () => {
                 objectFit="cover"
               />
               <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
-                Texas Caramel Drizzle Pecan Pie
+                Texas Pecan Pie
               </Heading>
               <Text fontSize="md" mb={2}>
                 A rich, buttery pecan pie made with locally sourced Texas pecans and a hint of caramel drizzle.
