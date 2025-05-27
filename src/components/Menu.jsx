@@ -45,7 +45,7 @@ const Menu = () => {
             <Box>
               <Image
                 src="/beef-ribs.jpg"
-                alt="Beef Ribs"
+                alt="Beef Ribz"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -109,7 +109,7 @@ const Menu = () => {
             <Box>
               <Image
                 src="/brizket-drizzle.png"
-                alt="Brisket"
+                alt="Smokin' Brisket"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -141,7 +141,7 @@ const Menu = () => {
             <Box>
               <Image
                 src="/ribz-drizzle-2.jpg"
-                alt="Pork Ribs"
+                alt="Legendary Ribz"
                 borderRadius="lg"
                 mb={4}
                 h="250px"
@@ -270,7 +270,7 @@ const Menu = () => {
           <Link to="/sauce">
             <img
               src="/bbq-sauce-3.png"
-              alt="Boerne"
+              alt="BBQ Sauce"
               style={{ width: "100%", height: "auto", display: "block" }}
             />
           </Link>
