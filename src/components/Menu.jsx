@@ -56,7 +56,7 @@ const Menu = () => {
                 Hill Country Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Meaty, slow-cooked beef ribs kissed by smoke and fire, drizzled with your favorite signature sauce.
+                Meaty, slow-cooked beef ribs kissed by smoke and fire, covered with your favorite signature drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
