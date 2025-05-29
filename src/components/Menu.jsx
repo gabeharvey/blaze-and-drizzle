@@ -88,7 +88,7 @@ const Menu = () => {
                 Boerne Black Label Wagyu Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Indulgently tender, marbled to perfection—our Wagyu beef ribs are slow-smoked over post oak and will melt in your mouth. 
+                Indulgently tender and marbled to perfection, our Wagyu beef ribs are slow-smoked over post oak and will melt in your mouth. 
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
