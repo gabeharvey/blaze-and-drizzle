@@ -1,4 +1,5 @@
-import { Box, Heading, Text, VStack, Image, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text, VStack, Image, Flex, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from 'react-router-dom';
 import BBQImage from "/ribz-drizzle.png";
 import TexasFlagGIF from "/texas-flag.gif"; 
 
@@ -130,7 +131,11 @@ const About = () => {
           <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
         <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">
-          We love to support local small businesses and we source practically everything from the Boerne area.
+            We love to support local small businesses and we source practically everything from the Boerne area.{' '}
+              <Link as={RouterLink} to="/founder" color="#000000" fontWeight="bold" textDecoration="underline">
+                Meet the founder
+              </Link>
+              .
         </Text>
               <Flex justify="center" mt={12}>
         <Box

@@ -5,6 +5,7 @@ import App from './App.jsx';
 import './index.css';
 import MainLayout from './components/MainLayout'; 
 import Sauce from './components/Sauce';
+import Founder from './components/Founder.jsx'
 
 const theme = extendTheme({
   styles: {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <MainLayout /> }, 
       { path: 'sauce', element: <Sauce /> },
+      { path: 'founder', element: <Founder /> },
     ],
   },
 ]);
