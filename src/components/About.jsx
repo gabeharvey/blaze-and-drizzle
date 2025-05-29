@@ -58,7 +58,7 @@ const About = () => {
     />
     <Box
       position="relative"
-      boxSize={{ base: "66px", md: "86px" }}
+      boxSize={{ base: "67px", md: "87px" }}
       mt={4}
       sx={{
         animation: 'fullFlip 16s linear infinite',
