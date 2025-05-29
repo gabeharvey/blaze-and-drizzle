@@ -56,6 +56,35 @@ const About = () => {
       boxSize={{ base: "80px", md: "100px" }}
       animation="floatFlag 3s ease-in-out infinite"
     />
+    <Box
+      position="relative"
+      boxSize={{ base: "66px", md: "86px" }}
+      mt={4}
+      sx={{
+        animation: 'fullFlip 16s linear infinite',
+        transformStyle: 'preserve-3d',
+        transformOrigin: 'center',
+      }}
+    >
+      <Image
+        src="/mississippi-flag.jpg"
+        alt="Front"
+        position="absolute"
+        inset="0"
+        backfaceVisibility="hidden"
+        w="100%"
+        h="100%"
+      />
+      <Image
+        src="/mississippi-flag.jpg"
+        alt="Back"
+        position="absolute"
+        inset="0"
+        transform="rotateY(180deg)"
+        w="100%"
+        h="100%"
+      />
+    </Box>
   </Flex>
       <VStack spacing={6}>
         <Box
