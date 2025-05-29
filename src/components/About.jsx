@@ -56,7 +56,7 @@ const About = () => {
       boxSize={{ base: "80px", md: "100px" }}
       animation="floatFlag 3s ease-in-out infinite"
     />
-    <Box
+    {/* <Box
       position="relative"
       boxSize={{ base: "67px", md: "87px" }}
       mt={4}
@@ -84,7 +84,7 @@ const About = () => {
         w="100%"
         h="100%"
       />
-    </Box>
+    </Box> */}
   </Flex>
       <VStack spacing={6}>
         <Box
