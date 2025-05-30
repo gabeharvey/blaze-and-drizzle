@@ -159,6 +159,38 @@ const Menu = () => {
               $13 1/2 lb
             </Text>
           </Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+          >
+            <Box>
+              <Image
+                src="/hill-country-drip.png" 
+                alt="Hill Country Drip Mac and Cheese"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+              />
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Hill Country Drip
+              </Heading>
+              <Text fontSize="md" mb={2}>
+                Creamy, cheesy mac loaded with slow-smoked flavor and Texas-sized richness — the ultimate BBQ side.
+              </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+              $6 bowl
+            </Text>
+          </Box>
                     <Box
             display="flex"
             flexDirection="column"
@@ -249,6 +281,38 @@ const Menu = () => {
               </Heading>
               <Text fontSize="md" mb={2}>
                 Refreshing sparkling mineral water served ice cold, perfect to quench your thirst.
+              </Text>
+            </Box>
+            <Text fontWeight="bold" fontSize="xl" color="orange.300">
+              $3 bottle
+            </Text>
+          </Box>
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="space-between"
+            bg="#000000"
+            color="#F6E0B3"
+            borderRadius="lg"
+            p={4}
+            minH="100%"
+            border="1px solid #F6E0B3"
+          >
+            <Box>
+              <Image
+                src="/coca-cola.png" 
+                alt="Ice Cold Coca-Cola"
+                borderRadius="lg"
+                mb={4}
+                h="250px"
+                w="100%"
+                objectFit="cover"
+              />
+              <Heading size="lg" mb={2} fontFamily="'Nosifer', cursive">
+                Ice Cold Coca-Cola
+              </Heading>
+              <Text fontSize="md" mb={2}>
+                Classic Coca-Cola chilled to perfection — a timeless refreshment that pairs perfectly with smoky BBQ.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
