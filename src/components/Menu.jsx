@@ -284,7 +284,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $3 bottle
+              $4 bottle
             </Text>
           </Box>
           <Box
@@ -316,7 +316,7 @@ const Menu = () => {
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
-              $3 bottle
+              $3 can
             </Text>
           </Box>
         </SimpleGrid>
