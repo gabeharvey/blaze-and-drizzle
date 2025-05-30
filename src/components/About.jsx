@@ -1,4 +1,4 @@
-import { Box, Heading, Text, VStack, Image, Flex, Link } from "@chakra-ui/react";
+import { Box, Heading, Text, VStack, Image, Flex } from "@chakra-ui/react";
 import { Link as RouterLink } from 'react-router-dom';
 import BBQImage from "/ribz-drizzle.png";
 import TexasFlagGIF from "/texas-flag.gif"; 
@@ -130,13 +130,35 @@ const About = () => {
           <Box as="span" fontWeight="bold"> Blaze & </Box>
           <Box as="span" fontFamily="'Nosifer', cursive" fontWeight="bold">Drizzle</Box> is here to serve up serious smoke.
         </Text>
-        <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif">
-            We love to support local small businesses and we source practically everything from the Boerne area.{' '}
-              <Link as={RouterLink} to="/founder" color="#000000" fontWeight="bold" textDecoration="underline">
-                Meet the founder
-              </Link>
-              .
+        <Text fontSize="lg" color="#000000" maxW="3xl" fontFamily="'Bungee', sans-serif" mt={4}>
+          We love to support local small businesses and we source practically everything from the Boerne area.
         </Text>
+        <Flex justify="center" mt={4}>
+          <Box
+            as={RouterLink}
+            to="/pitmasters"
+            px={6}
+            py={3}
+            fontWeight="bold"
+            fontFamily="'Bungee', sans-serif"
+            color="#F6E0B3"
+            textAlign="center"
+            sx={{
+              background:
+                "linear-gradient(135deg, #3b1f0b, #5c3a0a, #2f1605, #7a4d0c, #3b1f0b)",
+              backgroundSize: "400% 400%",
+              animation: "flameBackground 12s ease-in-out infinite",
+              transition: "background 0.3s ease, color 0.3s ease",
+              borderRadius: "12px",
+              border: "1px solid #F6E0B3",
+              _hover: {
+                transform: "scale(1.05)",
+              },
+            }}
+          >
+            Meet the Pitmasters
+          </Box>
+        </Flex>
               <Flex justify="center" mt={12}>
         <Box
           bg="#FFFFFF"

@@ -10,7 +10,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
-const Founder = () => {
+const Pitmasters = () => {
   const textColor = "#000000";
   const bgColor = "#F6E0B3";
   const navigate = useNavigate();
@@ -34,7 +34,7 @@ const Founder = () => {
           mb={10}
           fontFamily="'Nosifer', cursive"
         >
-          Meet the Pitmaster
+          Meet the Pitmasters
         </Heading>
 
         <Flex
@@ -145,4 +145,4 @@ const Founder = () => {
   );
 };
 
-export default Founder;
+export default Pitmasters;
