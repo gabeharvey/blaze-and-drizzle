@@ -216,7 +216,7 @@ const Menu = () => {
                 Texas Pecan Pie
               </Heading>
               <Text fontSize="md" mb={2}>
-                A rich, buttery pecan pie made with locally sourced Texas pecans and a hint of caramel drizzle.
+                A rich, buttery pecan pie made with locally sourced Texas pecans and topped with caramel drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
