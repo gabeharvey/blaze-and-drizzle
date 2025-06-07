@@ -280,7 +280,7 @@ const Menu = () => {
                 Ice Cold Topo-Chico
               </Heading>
               <Text fontSize="md" mb={2}>
-                Refreshing sparkling mineral water served ice cold, perfect to quench your thirst.
+                Refreshing sparkling mineral water — served ice cold, perfect to quench your thirst.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
