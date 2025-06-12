@@ -248,7 +248,7 @@ const Menu = () => {
                   Boerne Gold Cookies
                 </Heading>
                 <Text fontSize="md" mb={2}>
-                  Fresh-baked with gooey chocolate chips, crisp edges, and covered with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Boerne flavor in every bite.
+                  Fresh-baked with gooey chocolate chips, crisp edges, and finished with a generous drizzle of warm, rich chocolate. Soft, chewy, and full of Boerne flavor in every bite.
                 </Text>
               </Box>
               <Text fontWeight="bold" fontSize="xl" color="orange.300">
