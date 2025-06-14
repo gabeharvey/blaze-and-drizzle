@@ -120,7 +120,7 @@ const Menu = () => {
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
-                Our tender beef brisket is smoked low and slow with post oak, infused with rich spices, and finished with your choice of drizzle.
+                Our tender beef brisket is smoked low and slow with mesquite wood, infused with rich spices, and finished with your choice of drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
