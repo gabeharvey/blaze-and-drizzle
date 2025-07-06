@@ -88,7 +88,7 @@ const Menu = () => {
                 Boerne Black Label Wagyu Beef Ribz
               </Heading>
               <Text fontSize="md" mb={2}>
-                Indulgently tender and marbled to perfection, our Wagyu beef ribs are slow-smoked over post oak and will melt in your mouth. 
+                Indulgently tender and marbled to perfection, our Wagyu beef ribs are slow-smoked over post-oak and will melt in your mouth. 
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
@@ -120,7 +120,7 @@ const Menu = () => {
                 Smokin’ Brizket
               </Heading>
               <Text fontSize="md" mb={2}>
-                Our tender beef brisket is smoked low and slow with post oak wood, infused with rich spices, and finished with your choice of drizzle.
+                Our tender beef brisket is smoked low and slow with post-oak wood, infused with rich spices, and finished with your choice of drizzle.
               </Text>
             </Box>
             <Text fontWeight="bold" fontSize="xl" color="orange.300">
